@@ -154,9 +154,13 @@ header {
   flex-direction: column;
   padding-left: 5px;
   position: relative;
-  @include media(tablet) {
-    //   display: block;
-    position: absolute;
+  position: absolute;
+}
+@media (max-width: 600px) {
+  // @include media(tablet) {
+  //   display: block;
+  .menu {
+    position: relative;
   }
 }
 
