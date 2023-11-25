@@ -1,0 +1,21 @@
+body {
+  display: grid;
+  grid-template-areas: " navbar " "main " "footer ";
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  row-gap: 20px;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+
+  @include media(desktop) {
+    body {
+      grid-template-areas:
+        " . navbar ."
+        "  . main .  "
+        "footer footer footer ";
+      grid-template-columns: auto 1240px auto;
+      padding: 0;
+    }
+  }
+}
