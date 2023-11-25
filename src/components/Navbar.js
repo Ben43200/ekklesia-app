@@ -17,6 +17,11 @@ const Navbar = () => {
     const handleShowNavbar = () => {
         setShowNavbar(!showNavbar)
     }
+    const [open, setOpen] = React.useState(false);
+
+    const handleOpen = () => {
+        setOpen(!open);
+    };
 
     return (
         <header>
@@ -44,8 +49,24 @@ const Navbar = () => {
                             <li>
                                 <NavLink to="/contact">Contact</NavLink>
                             </li>
+                            {/* <div className="dropdown"> */}
+                            <li className="drop" onClick={handleOpen}><NavLink to="/">Contact</NavLink>
+                                {open ? (
+                                    <ul className="menu">
+                                        <li className="menu-item">
+                                            <NavLink to="/contact">Contact</NavLink>
+                                        </li>
+                                        <li className="menu-item">
+                                            <NavLink to="/contact">Contact</NavLink>
+                                        </li>
+                                    </ul>
+                                ) : null}
+                                {/* {open ? <div>Is Open</div> : <div>Is Closed</div>} */}
+                            </li>
                         </ul>
+
                     </div>
+                    {/* </div> */}
                 </div>
             </nav>
         </header>
