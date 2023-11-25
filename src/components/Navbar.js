@@ -46,9 +46,7 @@ const Navbar = () => {
                             <li>
                                 <NavLink to="/contact">Methodologie</NavLink>
                             </li>
-                            <li>
-                                <NavLink to="/contact">Contact</NavLink>
-                            </li>
+
                             {/* <div className="dropdown"> */}
                             <li className="drop" onClick={handleOpen}><NavLink to="/">Contact</NavLink>
                                 {open ? (
@@ -62,6 +60,9 @@ const Navbar = () => {
                                     </ul>
                                 ) : null}
                                 {/* {open ? <div>Is Open</div> : <div>Is Closed</div>} */}
+                            </li>
+                            <li>
+                                <NavLink to="/contact">Contact</NavLink>
                             </li>
                         </ul>
 

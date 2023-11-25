@@ -153,8 +153,11 @@ header {
   display: flex;
   flex-direction: column;
   padding-left: 5px;
-  //   display: block;
-  position: absolute;
+  position: relative;
+  @include media(tablet) {
+    //   display: block;
+    position: absolute;
+  }
 }
 
 .menu > li {
