@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 // import { ReactComponent as Brand } from '../logo.svg'
 // import { logo as Brand } from '../logo.jpg'
 import React from 'react'
-import logo from '../logo-png-mini2.webp'
+// import logo from '../logo-png-mini2.webp'
 
 import './navbar.scss'
 import { Squash as Hamburger } from 'hamburger-react'
@@ -24,7 +24,7 @@ const Navbar = () => {
                 <div className="container">
                     {/* <div className="logo"> */}
                     {/* <Brand /> */}
-                    <img src={logo} className='logo-1' alt="logo" />
+                    {/* <img src={logo} className='logo-1' alt="logo" /> */}
                     <div className="brand">METEOBEN</div>
                     {/* </div> */}
                     <div className="menu-icon" onClick={handleShowNavbar}>
@@ -36,7 +36,10 @@ const Navbar = () => {
                                 <NavLink to="/">Home</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/examples">Réalisations</NavLink>
+                                <NavLink to="/mission">Mission</NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/contact">Methodologie</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/contact">Contact</NavLink>
