@@ -44,7 +44,7 @@ const Navbar = () => {
                                 <NavLink to="/mission">Mission</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/contact">Methodologie</NavLink>
+                                <NavLink to="/methodologie">Methodologie</NavLink>
                             </li>
 
                             {/* <div className="dropdown"> */}

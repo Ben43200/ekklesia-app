@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import Home from "./pages/Home/Home";
+import Navbar from "./components/Navbar";
+import Methodologie from "./components/Methodologie";
 // import Error from "./pages/Error/Error";
 // import Footer from "./components/Footer";
 // import ContactUs from "./pages/Contact/ContactUs";
@@ -26,10 +28,12 @@ root.render(
         content="Développeur et créateur de site web en Vallée de la Drôme"
       />
     </Helmet> */}
+    <Navbar />
 
     <Routes>
       <Route path="/" element={<Home />} />
-      {/* <Route path="/contact" element={<ContactUs />} /> */}
+
+      <Route path="/methodologie" element={<Methodologie />} />
       {/* <Route path="/examples" element={<Examples />} /> */}
       {/* <Route path="*" element={<Error />} /> */}
 

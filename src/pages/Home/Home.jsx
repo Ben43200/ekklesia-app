@@ -14,8 +14,10 @@ import './home.scss';
 // const imageLarge = "../../compress-image-large.webp"
 export default function Home() {
     return (
+        // <Navbar />
+        <main>
+            <h1>Bienvenue</h1>
 
-        <Navbar />
-
+        </main>
     )
 }
