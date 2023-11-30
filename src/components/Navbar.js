@@ -70,6 +70,9 @@ const Navbar = () => {
                     {/* </div> */}
                 </div>
             </nav>
+            <div className="title-container">
+                <h1>Ekklesia Web, dynamiser votre vie d'église</h1>
+            </div>
         </header>
     )
 }
