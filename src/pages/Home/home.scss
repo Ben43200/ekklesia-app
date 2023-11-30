@@ -60,9 +60,9 @@ body {
     ".      header  .     " var(--hauteurHeader)
     ".      heading .     " var(--hauteurHeading)
     ".      main    .     " auto
-    "footer footer footer " var(--hauteurFooter)
-    / var(--largeurWrapper) var(--largeurContenu) var(--largeurWrapper);
-
+    "footer footer footer " var(--hauteurFooter);
+  // / var(--largeurWrapper) var(--largeurContenu) var(--largeurWrapper);
+  grid-template-columns: auto 1240px auto;
   max-width: 100vw;
   // min-height: 100vh;
   row-gap: 5px;
