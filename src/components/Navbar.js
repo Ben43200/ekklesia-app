@@ -48,7 +48,7 @@ const Navbar = () => {
                             </li>
 
                             {/* <div className="dropdown"> */}
-                            <li className="drop" onClick={handleOpen}><NavLink to="/">Contact</NavLink>
+                            <li className="drop" onClick={handleOpen}>Contact
                                 {open ? (
                                     <ul className="menu">
                                         <li className="menu-item">
