@@ -3,7 +3,7 @@
 // import background from "../../images/background-banner.png";
 // import React, { useEffect, useState } from "react";
 import React from "react";
-import Navbar from "../../components/Navbar";
+// import Navbar from "../../components/Navbar";
 import './home.scss';
 // import Footer from "../components/Footer";
 // import background from "../../compress-background.webp";

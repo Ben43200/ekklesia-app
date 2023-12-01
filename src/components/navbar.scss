@@ -128,6 +128,7 @@ header {
   .nav-elements.active {
     width: 200px;
     opacity: 0.95;
+    position: fixed;
   }
 
   .nav-elements ul {
