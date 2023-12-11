@@ -1,0 +1,16 @@
+.box-info-bordered {
+  box-shadow: 3px 3px 7px 2px #4054b2;
+  padding: 10px;
+  display: grid;
+  grid-auto-columns: auto;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .box-info {
+    place-self: center;
+  }
+}/*# sourceMappingURL=mission.css.map */

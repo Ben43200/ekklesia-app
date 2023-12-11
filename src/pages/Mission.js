@@ -1,9 +1,10 @@
 import React from "react";
+import "./mission.scss"
 
 export default function Mission() {
   return (
     <main>
-              <div className="box-image">
+      <div className="box-image">
         <img
           src="./bible.webp"
           srcset="bible-mini.webp 320w, bible.webp 640w"
@@ -49,12 +50,18 @@ export default function Mission() {
       </div>
       <div className="box-info-bordered">
         <ul>
-            <li>La possibilité de lancer de nouveaux produits et services.</li>
-            <li>La possibilité de créer des campagnes d’information ou de promotion efficaces.</li>
-            <li>La possibilité de communiquer avec les clients de manière personnalisée.</li>
+          <li>La possibilité de lancer de nouveaux produits et services.</li>
+          <li>
+            La possibilité de créer des campagnes d’information ou de promotion
+            efficaces.
+          </li>
+          <li>
+            La possibilité de communiquer avec les clients de manière
+            personnalisée.
+          </li>
         </ul>
       </div>
-     
+
       <div className="box-image">
         <img
           src="./bible.webp"
@@ -63,10 +70,13 @@ export default function Mission() {
         />
       </div>
       <div className="box-info">
-        <p>Finalement, la création d’un site Web est un investissement raisonnable pour un résultat rentable. Il donne la possibilité de se connecter à son public cible et de développer son activité. 
-Pourquoi n’en serait-il pas de même en Eglise ?</p>
-</div>
-
+        <p>
+          Finalement, la création d’un site Web est un investissement
+          raisonnable pour un résultat rentable. Il donne la possibilité de se
+          connecter à son public cible et de développer son activité. Pourquoi
+          n’en serait-il pas de même en Eglise ?
+        </p>
+      </div>
     </main>
   );
 }

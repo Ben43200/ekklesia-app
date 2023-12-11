@@ -1,0 +1,21 @@
+@import "../css/mixinsandfunctions.scss";
+
+
+
+.box-info-bordered {
+    box-shadow: 3px 3px 7px 2px #4054b2;
+    padding: 10px;
+    display: grid;
+    grid-auto-columns: auto;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    border-radius: 10px;
+  }
+  @include media(desktop) {
+    .box-info {
+      // width: 900px;
+      place-self: center;
+    }
+  }
+  
