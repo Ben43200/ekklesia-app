@@ -1,13 +1,12 @@
 import React from "react";
-import "./mission.scss"
+import "./mission.scss";
 
 export default function Mission() {
   return (
     <main>
       <div className="box-image">
-      <img alt='image bible'
-                    src={require('./bible.webp')} />
-                    </div>
+        <img alt="image bible" src={require("./bible.webp")} />
+      </div>
       <h2>Un site internet, pourquoi ?</h2>
       <div className="box-info">
         <p>
@@ -32,10 +31,9 @@ export default function Mission() {
         </ul>
       </div>
       <div className="box-image">
-      <img alt='image bible'
-                    src={require('./bible.webp')} />
-                    </div>
-      
+        <img alt="image bible" src={require("./bible.webp")} />
+      </div>
+
       <div className="box-info">
         <p>
           Un site Internet est donc un outil puissant qui peut être utilisé pour
@@ -58,9 +56,8 @@ export default function Mission() {
       </div>
 
       <div className="box-image">
-      <img alt='image bible'
-                    src={require('./bible.webp')} />
-                    </div>
+        <img alt="image bible" src={require("./bible.webp")} />
+      </div>
       <div className="box-info">
         <p>
           Finalement, la création d’un site Web est un investissement
