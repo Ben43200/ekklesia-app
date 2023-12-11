@@ -6,7 +6,7 @@ export default function Mission() {
     <main>
       <div className="box-image">
         <img
-          src="./bible.webp"
+          src="../bible.webp"
           srcset="bible-mini.webp 320w, bible.webp 640w"
           alt="photo bible"
         />
@@ -36,7 +36,7 @@ export default function Mission() {
       </div>
       <div className="box-image">
         <img
-          src="./bible.webp"
+          src="../bible.webp"
           srcset="bible-mini.webp 320w, bible.webp 640w"
           alt="photo bible"
         />
@@ -64,7 +64,7 @@ export default function Mission() {
 
       <div className="box-image">
         <img
-          src="./bible.webp"
+          src="../bible.webp"
           srcset="bible-mini.webp 320w, bible.webp 640w"
           alt="photo bible"
         />
