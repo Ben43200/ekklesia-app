@@ -16,7 +16,7 @@ export default function Home() {
     return (
         // <Navbar />
         <main>
-            <h2>Création et refonte de site web</h2>
+            {/* <h2>Création et refonte de site web</h2> */}
 
 
             <div className="box-info">
