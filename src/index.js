@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import Home from "./pages/Home/Home";
 import Navbar from "./components/Navbar";
 import Methodologie from "./components/Methodologie";
+import Mission from "./pages/Mission";
 // import Error from "./pages/Error/Error";
 // import Footer from "./components/Footer";
 // import ContactUs from "./pages/Contact/ContactUs";
@@ -34,6 +35,8 @@ root.render(
       <Route path="/" element={<Home />} />
 
       <Route path="/methodologie" element={<Methodologie />} />
+      <Route path="/mission" element={<Mission />} />
+
       {/* <Route path="/examples" element={<Examples />} /> */}
       {/* <Route path="*" element={<Error />} /> */}
 
