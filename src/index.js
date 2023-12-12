@@ -3,13 +3,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import Home from "./pages/Home/Home";
 import Navbar from "./components/Navbar";
-import Methodologie from "./components/Methodologie";
+import Methodologie from "./pages/Methodologie";
 import Mission from "./pages/Mission";
 // import Error from "./pages/Error/Error";
 // import Footer from "./components/Footer";
 // import ContactUs from "./pages/Contact/ContactUs";
 // import Examples from "./pages/Examples/Examples";
-// import ScrollToTop from "././components/ScrollToTop/ScrollToTup";
+import ScrollToTop from "./components/ScrollToTop";
 // import { Helmet } from "react-helmet";
 
 
@@ -21,7 +21,7 @@ root.render(
 
   // <React.StrictMode>
   <Router>
-    {/* <ScrollToTop /> */}
+    <ScrollToTop />
     {/* <Helmet>
       <title>Meteoben Développeur Web</title>
       <meta
