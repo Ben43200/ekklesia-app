@@ -19,3 +19,14 @@
     }
   }
   
+
+  .grid-container-mission{
+    display: grid;
+    gap:20px;
+    grid-template-columns: 1fr;
+  @include media(tablet) {
+
+    grid-template-columns: repeat(2,1fr);
+    
+  }
+}

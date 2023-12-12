@@ -4,10 +4,12 @@ import "./mission.scss";
 export default function Mission() {
   return (
     <main>
+        <h2>Un site internet, pourquoi ?</h2>
+      <div className="grid-container-mission">
       <div className="box-image">
-        <img alt="image bible" src={require("./bible.webp")} />
+        <img alt="image bible" src={require("../utils/vue_temple_orgue.jpg")} />
       </div>
-      <h2>Un site internet, pourquoi ?</h2>
+    
       <div className="box-info">
         <p>
           Les médias numériques (par opposition aux médias traditionnels, tels
@@ -31,7 +33,7 @@ export default function Mission() {
         </ul>
       </div>
       <div className="box-image">
-        <img alt="image bible" src={require("./bible.webp")} />
+        <img alt="image bible" src={require("../utils/photo_temple_croix.jpg")} />
       </div>
 
       <div className="box-info">
@@ -56,7 +58,7 @@ export default function Mission() {
       </div>
 
       <div className="box-image">
-        <img alt="image bible" src={require("./bible.webp")} />
+        <img alt="image bible" src={require("../utils/vue_vitrail.jpg")} />
       </div>
       <div className="box-info">
         <p>
@@ -66,6 +68,8 @@ export default function Mission() {
           n’en serait-il pas de même en Eglise ?
         </p>
       </div>
+      
+    </div>
     </main>
   );
 }
