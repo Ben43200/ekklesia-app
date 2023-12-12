@@ -106,8 +106,9 @@
   height: 300px;
   border-radius: 10px;
 }
-@include media(desktop) {
+@include media(tablet) {
   .box-image {
     // height: 500px;
+    width:auto;
   }
 }
