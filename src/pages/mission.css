@@ -13,4 +13,19 @@
   .box-info {
     place-self: center;
   }
+}
+.grid-container-mission {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 768px) {
+  .grid-container-mission {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.grid-container-mission > box-image > img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=mission.css.map */

@@ -21,7 +21,8 @@ root.render(
 
   // <React.StrictMode>
   <Router>
-    <ScrollToTop />
+      <ScrollToTop />
+
     {/* <Helmet>
       <title>Meteoben Développeur Web</title>
       <meta
@@ -42,6 +43,8 @@ root.render(
 
     </Routes>
     {/* <Footer /> */}
+
   </Router>
+
   // </React.StrictMode>
 );
