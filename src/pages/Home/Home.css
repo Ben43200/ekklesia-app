@@ -148,4 +148,10 @@
   box-shadow: 3px 3px 7px 2px #4054b2;
   height: 300px;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .box-image {
+    width: auto;
+  }
 }/*# sourceMappingURL=home.css.map */

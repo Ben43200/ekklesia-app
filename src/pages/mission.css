@@ -25,7 +25,8 @@
   }
 }
 
-.grid-container-mission > box-image > img {
+.grid-container-mission .box-image > img {
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
 }/*# sourceMappingURL=mission.css.map */

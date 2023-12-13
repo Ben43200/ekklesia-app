@@ -35,7 +35,9 @@ export default function Mission() {
       <div className="box-image">
         <img alt="image bible" src={require("../utils/photo_temple_croix.jpg")} />
       </div>
-
+      <div className="box-image">
+        <img alt="image bible" src={require("../utils/vue_temple_orgue.jpg")} />
+      </div>
       <div className="box-info">
         <p>
           Un site Internet est donc un outil puissant qui peut être utilisé pour
@@ -59,6 +61,9 @@ export default function Mission() {
 
       <div className="box-image">
         <img alt="image bible" src={require("../utils/vue_vitrail.jpg")} />
+      </div>
+      <div className="box-image">
+        <img alt="image bible" src={require("../utils/vue_temple_orgue.jpg")} />
       </div>
       <div className="box-info">
         <p>
