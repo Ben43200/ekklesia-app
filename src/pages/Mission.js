@@ -63,7 +63,7 @@ export default function Mission() {
         <img alt="image bible" src={require("../utils/vue_vitrail.jpg")} />
       </div>
       <div className="box-image">
-        <img alt="image bible" src={require("../utils/vue_temple_orgue.jpg")} />
+        <img alt="image bible" src={require("../utils/photo_affiche.jpg")} />
       </div>
       <div className="box-info">
         <p>
