@@ -39,6 +39,8 @@ root.render(
 
       <Route path="/methodologie" element={<Methodologie />} />
       <Route path="/mission" element={<Mission />} />
+      <Route path="/contact" element={<Mission />} />
+
 
       {/* <Route path="/examples" element={<Examples />} /> */}
       {/* <Route path="*" element={<Error />} /> */}
