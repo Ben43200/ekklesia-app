@@ -23,6 +23,7 @@ const Navbar = () => {
         setOpen(!open);
     };
 
+
     return (
         <header>
             <nav className="navbar">
@@ -38,13 +39,13 @@ const Navbar = () => {
                     <div className={`nav-elements  ${showNavbar && 'active'}`}>
                         <ul>
                             <li>
-                                <NavLink to="/">Home</NavLink>
+                                <NavLink to="/" onClick={handleShowNavbar}>Home</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/mission">Mission</NavLink>
+                                <NavLink to="/mission" onClick={handleShowNavbar}>Mission</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/methodologie">Methodologie</NavLink>
+                                <NavLink to="/methodologie" onClick={handleShowNavbar}>Methodologie</NavLink>
                             </li>
 
                             {/* <div className="dropdown"> */}
@@ -52,17 +53,17 @@ const Navbar = () => {
                                 {open ? (
                                     <ul className="menu">
                                         <li className="menu-item">
-                                            <NavLink to="/contact">Contact</NavLink>
+                                            <NavLink to="/contact" onClick={handleShowNavbar}>Contact</NavLink>
                                         </li>
                                         <li className="menu-item">
-                                            <NavLink to="/contact">Contact</NavLink>
+                                            <NavLink to="/contact" onClick={handleShowNavbar}>Contact</NavLink>
                                         </li>
                                     </ul>
                                 ) : null}
                                 {/* {open ? <div>Is Open</div> : <div>Is Closed</div>} */}
                             </li>
                             <li>
-                                <NavLink to="/contact">Contact</NavLink>
+                                <NavLink to="/contact" onClick={handleShowNavbar}>Contact</NavLink>
                             </li>
                         </ul>
 

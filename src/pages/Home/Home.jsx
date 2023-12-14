@@ -33,7 +33,7 @@ export default function Home() {
         <div className="box-image">
           <img
             src="./bible.webp"
-            srcset="bible-mini.webp 320w, bible.webp 640w"
+            srcSet="bible-mini.webp 320w, bible.webp 640w"
             alt="photo bible"
           />
         </div>
@@ -51,7 +51,7 @@ export default function Home() {
           {/* <!-- <img src="./parroissiens.webp" alt="paroissiens" /> --> */}
           <img
             src="./paroissiens.webp"
-            srcset="parroissiens-mini.webp 320w, paroissiens.webp 640w"
+            srcSet="parroissiens-mini.webp 320w, paroissiens.webp 640w"
             alt="photo paroissiens"
           />
         </div>
@@ -70,7 +70,7 @@ export default function Home() {
           {/* <!-- <img src="./pasteur.webp" alt="pasteur" /> --> */}
           <img
             src="./pasteur.webp"
-            srcset="pasteur-mini.webp 320w, pasteur.webp 640w"
+            srcSet="pasteur-mini.webp 320w, pasteur.webp 640w"
             alt="photo pasteur"
           />
         </div>
@@ -91,7 +91,7 @@ export default function Home() {
           {/* <!-- <img src="./homme-priant.webp" alt="homme-priant.jpg" /> --> */}
           <img
             src="./homme-priant.webp"
-            srcset="homme-priant-mini.webp 320w, homme-priant.webp 640w"
+            srcSet="homme-priant-mini.webp 320w, homme-priant.webp 640w"
             alt="photo homme priant"
           />
         </div>
