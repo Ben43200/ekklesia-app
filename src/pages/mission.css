@@ -29,4 +29,19 @@
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+}
+
+.grid-container-mission .box-image-mission:nth-child(4) {
+  grid-row: 3/4;
+}
+
+.grid-container-mission .box-image-mission:nth-child(8) {
+  grid-row: 7/8;
+}
+
+@media screen and (min-width: 768px) {
+  .grid-container-mission .box-image-mission:nth-child(8) {
+    grid-row: 4/5;
+    grid-column: 2;
+  }
 }/*# sourceMappingURL=mission.css.map */

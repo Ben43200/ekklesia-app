@@ -6,7 +6,7 @@ export default function Mission() {
     <main>
         <h2>Un site internet, pourquoi ?</h2>
       <div className="grid-container-mission">
-      <div className="box-image">
+      <div className="box-image box-image-mission">
         <img alt="image bible" src={require("../utils/vue_temple_orgue.jpg")} />
       </div>
     
@@ -32,10 +32,11 @@ export default function Mission() {
           <li>Ils peuvent promouvoir la notoriété de la marque.</li>
         </ul>
       </div>
-      <div className="box-image">
+      <div className="box-image box-image-mission">
+
         <img alt="image bible" src={require("../utils/photo_temple_croix.jpg")} />
       </div>
-      <div className="box-image">
+      <div className="box-image box-image-mission">
         <img alt="image bible" src={require("../utils/vue_temple_orgue.jpg")} />
       </div>
       <div className="box-info">
@@ -59,10 +60,10 @@ export default function Mission() {
         </ul>
       </div>
 
-      <div className="box-image">
+      <div className="box-image box-image-mission">
         <img alt="image bible" src={require("../utils/vue_vitrail.jpg")} />
       </div>
-      <div className="box-image">
+      <div className="box-image box-image-mission">
         <img alt="image bible" src={require("../utils/photo_affiche.jpg")} />
       </div>
       <div className="box-info">

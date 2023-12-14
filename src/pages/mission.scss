@@ -35,3 +35,21 @@
   width:100%;
   // background-size: cover;
 }
+
+.grid-container-mission  .box-image-mission:nth-child(4){
+  grid-row:3/4;
+}
+
+.grid-container-mission  .box-image-mission:nth-child(8){
+  grid-row:7/8;
+}
+
+
+.grid-container-mission  .box-image-mission:nth-child(8){
+  @include media(tablet) {
+
+  grid-row:4/5;
+  grid-column: 2;
+}
+}
+
