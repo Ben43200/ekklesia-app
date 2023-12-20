@@ -222,7 +222,22 @@ h1 {
     width: 1240px;
   }
 }
-
+.burger-icon span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+}
+.fa-chevron-down{
+  font-family: "fontawesome";
+  font-weight:900;
+  padding-left: 4px;
+  // position: absolute;
+}
+.drop-icon{
+  display: flex;
+}
 // @media (max-width: 600px) {
 //     .
 // }
