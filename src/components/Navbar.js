@@ -59,7 +59,8 @@ const Navbar = () => {
 
               {/* <div className="dropdown"> */}
               <li className="drop" onClick={handleOpen}>
-              <div className="drop-icon">Prestations<i className="fas fa-chevron-down"></i></div>
+              <div className="drop-icon">Prestations
+              <i className="fas fa-chevron-down"></i></div>
 
                 {open ? (
                   <ul className="menu">
