@@ -40,6 +40,7 @@ const Navbar = () => {
             </span>
           </div>
           <div className={`nav-elements  ${showNavbar && "active"}`}>
+            {/* <div className="x-close">X</div> */}
             <ul>
               <li>
                 <NavLink to="/" onClick={handleShowNavbar}>
