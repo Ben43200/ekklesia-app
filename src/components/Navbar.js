@@ -29,7 +29,7 @@ const Navbar = () => {
           {/* <div className="logo"> */}
           {/* <Brand /> */}
           <img src={logo} className='logo-1' alt="logo" />
-          <div className="brand">METEOBEN</div>
+          {/* <div className="brand">METEOBEN</div> */}
           {/* </div> */}
           <div className="menu-icon" onClick={handleShowNavbar}>
             {/* <Hamburger /> */}
