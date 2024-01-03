@@ -175,4 +175,19 @@ img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+}
+
+.grid-container-mission {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 768px) {
+  .grid-container-mission {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.box-info {
+  place-self: center;
 }/*# sourceMappingURL=home.css.map */
