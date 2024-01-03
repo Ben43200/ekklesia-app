@@ -55,7 +55,7 @@ export default function Home() {
             srcSet="parroissiens-mini.webp 320w, paroissiens.webp 640w"
             alt="photo paroissiens"
           /> */}
-          <img alt="image bible" src={require("../../utils/vue_sortie_temple.jpg")} />
+          <img alt="image bible" src={require("../../utils/vue_expo_grd_format.jpg")} />
 
         </div>
         <div className="box-info">
@@ -76,7 +76,7 @@ export default function Home() {
             srcSet="pasteur-mini.webp 320w, pasteur.webp 640w"
             alt="photo pasteur"
           /> */}
-          <img alt="image bible" src={require("../../utils/vue_sortie_temple.jpg")} />
+          <img alt="image bible" src={require("../../utils/vue_console_etage.jpg")} />
 
         </div>
         <div className="box-info">
@@ -99,7 +99,7 @@ export default function Home() {
             srcSet="homme-priant-mini.webp 320w, homme-priant.webp 640w"
             alt="photo homme priant"
           /> */}
-          <img alt="image bible" src={require("../../utils/vue_sortie_temple.jpg")} />
+          <img alt="image bible" src={require("../../utils/vue_vitrail_etage.jpg")} />
 
         </div>
         <div className="box-info">
