@@ -177,17 +177,28 @@ img {
   width: 100%;
 }
 
-.grid-container-mission {
+.grid-container {
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr;
 }
 @media screen and (min-width: 768px) {
-  .grid-container-mission {
+  .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 .box-info {
   place-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .grid-container .box-info:nth-child(4) {
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+  .grid-container .box-info:last-child {
+    grid-column: 1/2;
+    grid-row: 4;
+  }
 }/*# sourceMappingURL=home.css.map */

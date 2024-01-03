@@ -113,16 +113,16 @@ export default function Home() {
             locales à travers ce médium.
           </p>
           <a href="#">Mieux nous connître</a>
-          <div className="box-image">
+        {/* <div className="box-image">
           {/* <!-- <img src="./homme-priant.webp" alt="homme-priant.jpg" /> --> */}
           {/* <img
             src="./homme-priant.webp"
             srcSet="homme-priant-mini.webp 320w, homme-priant.webp 640w"
             alt="photo homme priant"
           /> */}
-          <img alt="image bible" src={require("../../utils/vue_sortie_temple.jpg")} />
+          {/* <img alt="image bible" src={require("../../utils/vue_sortie_temple.jpg")} /> */}
 
-        </div>
+        {/* </div>  */} 
         </div>
       </div>
     </main>
