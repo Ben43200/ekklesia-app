@@ -89,7 +89,7 @@ const Navbar = () => {
         </div>
       </nav>
       <div className="title-container">
-        <h1>Ekklesia Web, dynamiser votre vie d'église</h1>
+        <h1>Ekklesia Web, dynamisez votre vie d'église avec le Net !</h1>
       </div>
     </header>
   );
