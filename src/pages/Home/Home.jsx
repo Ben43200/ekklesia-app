@@ -31,11 +31,12 @@ export default function Home() {
 
       <div className="grid-container">
         <div className="box-image">
-          <img
-            src="./bible.webp"
+          {/* <img
+            src="../../utils/vue_sortie_temple.jpg"
             srcSet="bible-mini.webp 320w, bible.webp 640w"
             alt="photo bible"
-          />
+          /> */}
+          <img alt="image bible" src={require("../../utils/vue_sortie_temple.jpg")} />
         </div>
         <div className="box-info">
           <h3>Un site internet, pourquoi ?</h3>
@@ -49,11 +50,13 @@ export default function Home() {
         </div>
         <div className="box-image">
           {/* <!-- <img src="./parroissiens.webp" alt="paroissiens" /> --> */}
-          <img
+          {/* <img
             src="./paroissiens.webp"
             srcSet="parroissiens-mini.webp 320w, paroissiens.webp 640w"
             alt="photo paroissiens"
-          />
+          /> */}
+          <img alt="image bible" src={require("../../utils/vue_sortie_temple.jpg")} />
+
         </div>
         <div className="box-info">
           <h3>Que proposons nous ?</h3>
@@ -68,11 +71,13 @@ export default function Home() {
 
         <div className="box-image">
           {/* <!-- <img src="./pasteur.webp" alt="pasteur" /> --> */}
-          <img
+          {/* <img
             src="./pasteur.webp"
             srcSet="pasteur-mini.webp 320w, pasteur.webp 640w"
             alt="photo pasteur"
-          />
+          /> */}
+          <img alt="image bible" src={require("../../utils/vue_sortie_temple.jpg")} />
+
         </div>
         <div className="box-info">
           <h3>Une prestation Sur mesure</h3>
@@ -89,11 +94,13 @@ export default function Home() {
         </div>
         <div className="box-image">
           {/* <!-- <img src="./homme-priant.webp" alt="homme-priant.jpg" /> --> */}
-          <img
+          {/* <img
             src="./homme-priant.webp"
             srcSet="homme-priant-mini.webp 320w, homme-priant.webp 640w"
             alt="photo homme priant"
-          />
+          /> */}
+          <img alt="image bible" src={require("../../utils/vue_sortie_temple.jpg")} />
+
         </div>
         <div className="box-info">
           <h3>Qui nous sommes nous ?</h3>
