@@ -39,6 +39,7 @@ header {
 .logo-1 {
   width: 17%;
   height: 60px;
+  z-index: 300;
   @include media(tablet) {
     // border-radius: 25px;
     // height: 140px;
