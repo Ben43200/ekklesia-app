@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Methodologie from "./pages/Methodologie";
 import Mission from "./pages/Mission";
 // import Error from "./pages/Error/Error";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 // import ContactUs from "./pages/Contact/ContactUs";
 // import Examples from "./pages/Examples/Examples";
 import ScrollToTop from "./components/ScrollToTop";
@@ -46,7 +46,7 @@ root.render(
       {/* <Route path="*" element={<Error />} /> */}
 
     </Routes>
-    {/* <Footer /> */}
+    <Footer />
 
   </Router>
 

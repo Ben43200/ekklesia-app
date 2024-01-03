@@ -49,30 +49,30 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink to="/mission" onClick={handleShowNavbar}>
-                  Mission
+                  Notre Mission
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/methodologie" onClick={handleShowNavbar}>
-                  Methodologie
+                 Notre Methodologie
                 </NavLink>
               </li>
 
               {/* <div className="dropdown"> */}
               <li className="drop" onClick={handleOpen}>
-              <div className="drop-icon">Prestations
+              <div className="drop-icon">Nos Services
               <i className="fas fa-chevron-down"></i></div>
 
                 {open ? (
                   <ul className="menu">
                     <li className="menu-item">
-                      <NavLink to="/contact" onClick={handleShowNavbar}>
-                        Contact
+                      <NavLink to="/prestations" onClick={handleShowNavbar}>
+                        Nos Prestations
                       </NavLink>
                     </li>
                     <li className="menu-item">
-                      <NavLink to="/contact" onClick={handleShowNavbar}>
-                        Contact
+                      <NavLink to="/realisations" onClick={handleShowNavbar}>
+                        Nos Réalisations
                       </NavLink>
                     </li>
                   </ul>

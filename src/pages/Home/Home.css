@@ -201,4 +201,7 @@ img {
     grid-column: 1/2;
     grid-row: 4;
   }
+}
+#main {
+  row-gap: 20px;
 }/*# sourceMappingURL=home.css.map */
