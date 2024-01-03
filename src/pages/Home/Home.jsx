@@ -5,6 +5,8 @@
 import React from "react";
 // import Navbar from "../../components/Navbar";
 import "./home.scss";
+import { NavLink } from "react-router-dom";
+import { Button } from '@mui/material';
 // import Footer from "../components/Footer";
 // import background from "../../compress-background.webp";
 // import BackToUp from "../../components/BackToUp/BackToUp";
@@ -47,6 +49,14 @@ export default function Home() {
             de ce dernier sera un atout fondamental pour votre paroisse.
           </p>
           <a href="mission.html">Notre mission</a>
+          <Button component={NavLink} to="./mission"
+          variant="contained"
+          color="primary"
+          
+          // theme={theme}
+          >
+          CLICK
+        </Button>
         </div>
         <div className="box-image">
           {/* <!-- <img src="./parroissiens.webp" alt="paroissiens" /> --> */}
