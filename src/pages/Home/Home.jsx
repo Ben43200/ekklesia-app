@@ -49,14 +49,15 @@ export default function Home() {
             de ce dernier sera un atout fondamental pour votre paroisse.
           </p>
           {/* <a href="mission.html">Notre mission</a> */}
-          <Button component={NavLink} to="./mission"
+          {/* <Button component={NavLink} to="./mission"
           variant="contained"
           color="primary"
           
           // theme={theme}
           >
           Notre mission
-        </Button>
+        </Button> */}
+        <NavLink to='../Mission'><button className="button">Mission</button></NavLink>
         </div>
         <div className="box-image">
           {/* <!-- <img src="./parroissiens.webp" alt="paroissiens" /> --> */}
@@ -77,14 +78,16 @@ export default function Home() {
             tailles, nous vous accompagnerons tout au long de votre projet.
           </p>
           {/* <a href="services.html">Découvrez nos services</a> */}
-          <Button component={NavLink} to="./methodologie"
+          {/* <Button component={NavLink} to="./methodologie"
           variant="contained"
           color="primary"
           
           // theme={theme}
           >
           Nos prestations
-        </Button>
+        </Button> */}
+        <NavLink to='../methodologie'><button className="button">Methodologie</button></NavLink>
+
         </div>
 
         <div className="box-image">
@@ -109,14 +112,9 @@ export default function Home() {
             de plus en plus utilisée de nos jours.
           </p>
           {/* <a href="methodologie.html">Notre méthodologie</a> */}
-          <Button component={NavLink} to="./methodologie"
-          variant="contained"
-          color="primary"
-          
-          // theme={theme}
-          >
-          Notre méthodologie
-        </Button>
+
+        <NavLink to='../service'><button className="button">Services</button></NavLink>
+
         </div>
         <div className="box-image">
           {/* <!-- <img src="./homme-priant.webp" alt="homme-priant.jpg" /> --> */}

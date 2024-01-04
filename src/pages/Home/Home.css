@@ -223,4 +223,12 @@ h1, h2, h3, h4 {
 
 h2, h3 {
   font-size: 25px;
+}
+
+button {
+  background-color: #131f53;
+  color: white;
+  width: 130px;
+  height: 40px;
+  border-radius: 7px;
 }/*# sourceMappingURL=home.css.map */
