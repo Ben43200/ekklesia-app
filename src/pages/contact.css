@@ -1,30 +1,27 @@
-h1 {
-  text-align: center;
-}
-
-form {
-  max-width: 600px;
-  text-align: center;
-  margin: 20px auto;
-}
-
 input,
 textarea {
-  border: 0;
+  border: 1px solid grey;
   outline: 0;
-  padding: 1em;
+  padding: 10px 0px;
   border-radius: 8px;
   display: block;
-  width: 100%;
+  width: 20rem;
   margin-top: 1em;
   font-family: "Merriweather", sans-serif;
   resize: none;
+}
+@media screen and (min-width: 1024px) {
+  input,
+  textarea {
+    width: 500px;
+  }
 }
 
 #input-submit {
   color: white;
   background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
   cursor: pointer;
+  width: 200px;
 }
 
 #input-submit:hover {
@@ -35,33 +32,9 @@ textarea {
   height: 126px;
 }
 
-.half {
-  float: left;
-  width: 48%;
-  margin-bottom: 1em;
-}
-
-.right {
-  width: 50%;
-}
-
-.left {
-  margin-right: 2%;
-}
-
-@media (max-width: 480px) {
-  .half {
-    width: 100%;
-    float: none;
-    margin-bottom: 0;
-  }
-}
-.cf:before,
-.cf:after {
-  content: " ";
-  display: table;
-}
-
-.cf:after {
-  clear: both;
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=contact.css.map */
