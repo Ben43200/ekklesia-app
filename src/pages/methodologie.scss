@@ -1,0 +1,17 @@
+
+@import "../css/mixinsandfunctions.scss";
+.button-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.box-image-methodologie{
+    width: 100%;
+  
+    
+  @include media(tablet) {
+    width:600px;
+}
+}

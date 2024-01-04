@@ -1,4 +1,7 @@
 import React from "react"
+import { NavLink } from "react-router-dom";
+import { Button } from "@mui/material";
+import "./methodologie.scss"
 
 
 const Methodologie = () => {
@@ -7,7 +10,7 @@ const Methodologie = () => {
     <main>
       <h2>Méthodologie</h2>
       {/* <div class="box-info"> */}
-      <h3>Création du site ou refonte d’un site existant</h3>
+      {/* <h3>Création du site ou refonte d’un site existant</h3>
       <ul>
         <li>
           Nous procéderons au choix et la réservation d’un nom de domaine
@@ -36,8 +39,53 @@ const Methodologie = () => {
           grâce à des outils de développement web.
         </li>
         <li>Mise en ligne du site sur nos serveurs.</li>
-      </ul>
+      </ul> */}
       {/* </div> */}
+      A reformuler
+Pour créer un site internet d&#39;une Eglise, un bon développeur Web doit suffire. Si, en plus, il est
+chrétien et engagé personnellement dans son Eglise, cela lui permet d’être plus à même de saisir les
+enjeux et les besoins de votre paroisse, son organisation et son fonctionnement. Efficacité et gain de
+temps pour tous !
+<ul>
+Pour plusieurs raisons :
+<li>- Compréhension de la théologie et de la culture chrétiennes : Un développeur chrétien
+comprend les valeurs et les croyances fondamentales du christianisme. Cela lui permet de
+créer un site Web qui est à la fois informatif et pertinent pour le public cible de l&#39;Eglise.</li>
+<li>- Sensibilisation aux besoins des Eglises : Un développeur chrétien comprend les besoins
+spécifiques des Eglises locales. Cela lui permet de créer un site Web qui est fonctionnel et
+facile à utiliser.</li>
+<li>- Expérience dans la création de sites Web chrétiens : nous avons l’avantage d’avoir déjà créé
+des sites Web pour des Eglises. Cela nous donne une crédibilité et des compétences
+précieuses qui peuvent être utilisées pour créer un site Web de qualité pour votre Eglise.</li>
+</ul>
+<div className="button-group">
+<Button component={NavLink} to="./mission"
+          variant="contained"
+          color="primary"
+          
+          // theme={theme}
+          >
+          Notre mission
+        </Button>
+        <div className="box-image-methodologie">
+          {/* <!-- <img src="./parroissiens.webp" alt="paroissiens" /> --> */}
+          {/* <img
+            src="./paroissiens.webp"
+            srcSet="parroissiens-mini.webp 320w, paroissiens.webp 640w"
+            alt="photo paroissiens"
+          /> */}
+          <img alt="image bible" src={require("../utils/methodo.jpg")} />
+
+        </div>
+        <Button component={NavLink} to="./contact"
+          variant="contained"
+          color="primary"
+          
+          // theme={theme}
+          >
+          Nous contacter
+        </Button>
+        </div>
     </main>
 
   )
