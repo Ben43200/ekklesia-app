@@ -11,6 +11,8 @@ import Footer from "./components/Footer";
 // import ContactUs from "./pages/Contact/ContactUs";
 // import Examples from "./pages/Examples/Examples";
 import ScrollToTop from "./components/ScrollToTop";
+import Service from "./pages/Services";
+import Realisations from "./pages/Realisations";
 // import ScrollToTop from "react-scroll-to-top";
 // import { Helmet } from "react-helmet";
 
@@ -40,6 +42,10 @@ root.render(
       <Route path="/methodologie" element={<Methodologie />} />
       <Route path="/mission" element={<Mission />} />
       <Route path="/contact" element={<Mission />} />
+      <Route path="/services" element={<Service />} />
+      <Route path="/realisations" element={<Realisations />} />
+
+
 
 
       {/* <Route path="/examples" element={<Examples />} /> */}

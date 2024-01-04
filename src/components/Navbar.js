@@ -60,14 +60,14 @@ const Navbar = () => {
 
               {/* <div className="dropdown"> */}
               <li className="drop" onClick={handleOpen}>
-              <div className="drop-icon">Nos Services
+              <div className="drop-icon">Nos Prestations
               <i className="fas fa-chevron-down"></i></div>
 
                 {open ? (
                   <ul className="menu">
                     <li className="menu-item">
-                      <NavLink to="/prestations" onClick={handleShowNavbar}>
-                        Nos Prestations
+                      <NavLink to="/services" onClick={handleShowNavbar}>
+                        Nos Services
                       </NavLink>
                     </li>
                     <li className="menu-item">
