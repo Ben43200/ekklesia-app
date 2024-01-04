@@ -24,7 +24,7 @@ textarea {
 
 #input-submit {
   color: white;
-  background-color: #86b98b;
+  background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
   cursor: pointer;
 }
 
