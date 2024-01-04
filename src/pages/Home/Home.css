@@ -193,6 +193,11 @@ img {
   font-family: caramel cursive;
 }
 
+.box-info:first-child {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
 @media screen and (min-width: 768px) {
   .grid-container .box-info:nth-child(4) {
     grid-column: 1/2;
