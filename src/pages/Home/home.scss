@@ -1,5 +1,7 @@
 @import "../../css/mixinsandfunctions.scss";
 // @import "./variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Philosopher&display=swap');
 
 * {
   @include reset;
@@ -149,6 +151,8 @@ width:100%;
 }
 .box-info{
   place-self: center;
+  font-family: caramel cursive;
+
 }
   // .grid-container .box-image:nth-child(3){
   //   grid-column: 2;
@@ -185,5 +189,12 @@ padding: 0px 4px;
 .css-sghohy-MuiButtonBase-root-MuiButton-root {
   z-index: -999;
 
+}
+h1, h2 , h3, h4{
+  // font-family: caramel cursive;
+  font-family: 'Philosopher', sans-serif;
+}
+h2,h3{
+  font-size: 25px;
 }
 
