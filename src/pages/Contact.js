@@ -38,7 +38,7 @@ export const Contact = () => {
                         <input type='email' placeholder='Adresse email' name='user_email' />
                     </div>
                     <div className='half right cf'>
-                        <textarea name='message' type='text' placeholder='Parlez-moi de votre projet'></textarea>
+                        <textarea name='message' type='text' placeholder='Parlez-nous de votre projet'></textarea>
                     </div>
                     <input type='submit' value='Submit' id='input-submit' />
                 </form>
