@@ -48,14 +48,14 @@ export default function Home() {
             d’églises. Nous sommes convaincus que cette création ou une refonte
             de ce dernier sera un atout fondamental pour votre paroisse.
           </p>
-          <a href="mission.html">Notre mission</a>
+          {/* <a href="mission.html">Notre mission</a> */}
           <Button component={NavLink} to="./mission"
           variant="contained"
           color="primary"
           
           // theme={theme}
           >
-          CLICK
+          Notre mission
         </Button>
         </div>
         <div className="box-image">
@@ -76,7 +76,15 @@ export default function Home() {
             sa communauté. Nous travaillons avec les paroisses de toutes
             tailles, nous vous accompagnerons tout au long de votre projet.
           </p>
-          <a href="services.html">Découvrez nos services</a>
+          {/* <a href="services.html">Découvrez nos services</a> */}
+          <Button component={NavLink} to="./methodologie"
+          variant="contained"
+          color="primary"
+          
+          // theme={theme}
+          >
+          Nos prestations
+        </Button>
         </div>
 
         <div className="box-image">
@@ -100,7 +108,15 @@ export default function Home() {
             ordinateur, une version tablette, et surtout une version smartphone,
             de plus en plus utilisée de nos jours.
           </p>
-          <a href="methodologie.html">Notre méthodologie</a>
+          {/* <a href="methodologie.html">Notre méthodologie</a> */}
+          <Button component={NavLink} to="./methodologie"
+          variant="contained"
+          color="primary"
+          
+          // theme={theme}
+          >
+          Notre méthodologie
+        </Button>
         </div>
         <div className="box-image">
           {/* <!-- <img src="./homme-priant.webp" alt="homme-priant.jpg" /> --> */}
@@ -123,6 +139,7 @@ export default function Home() {
             locales à travers ce médium.
           </p>
           <a href="#">Mieux nous connître</a>
+
         {/* <div className="box-image">
           {/* <!-- <img src="./homme-priant.webp" alt="homme-priant.jpg" /> --> */}
           {/* <img
