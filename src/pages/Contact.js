@@ -40,7 +40,7 @@ export const Contact = () => {
                     <div className='half right cf'>
                         <textarea name='message' type='text' placeholder='Parlez-nous de votre projet'></textarea>
                     </div>
-                    <input type='submit' value='Submit' id='input-submit' />
+                    <input type='submit' value='envoyer' id='input-submit' />
                 </form>
             </main>
     );
