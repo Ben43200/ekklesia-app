@@ -86,7 +86,8 @@ export default function Home() {
           >
           Nos prestations
         </Button> */}
-        <NavLink to='../methodologie'><button className="button">Methodologie</button></NavLink>
+        <NavLink to='../service'><button className="button">Services</button></NavLink>
+
 
         </div>
 
@@ -112,8 +113,8 @@ export default function Home() {
             de plus en plus utilisée de nos jours.
           </p>
           {/* <a href="methodologie.html">Notre méthodologie</a> */}
+          <NavLink to='../methodologie'><button className="button">Methodologie</button></NavLink>
 
-        <NavLink to='../service'><button className="button">Services</button></NavLink>
 
         </div>
         <div className="box-image">

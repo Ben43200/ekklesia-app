@@ -59,14 +59,8 @@ des sites Web pour des Eglises. Cela nous donne une crédibilité et des compét
 précieuses qui peuvent être utilisées pour créer un site Web de qualité pour votre Eglise.</li>
 </ul>
 <div className="button-group">
-<Button component={NavLink} to="./mission"
-          variant="contained"
-          color="primary"
-          
-          // theme={theme}
-          >
-          Notre mission
-        </Button>
+<NavLink to='../Mission'><button className="button">Mission</button></NavLink>
+
         <div className="box-image-methodologie">
           {/* <!-- <img src="./parroissiens.webp" alt="paroissiens" /> --> */}
           {/* <img
@@ -77,14 +71,8 @@ précieuses qui peuvent être utilisées pour créer un site Web de qualité pou
           <img alt="image bible" src={require("../utils/methodo.jpg")} />
 
         </div>
-        <Button component={NavLink} to="./contact"
-          variant="contained"
-          color="primary"
-          
-          // theme={theme}
-          >
-          Nous contacter
-        </Button>
+        <NavLink to='../contact'><button className="button">Contact</button></NavLink>
+
         </div>
     </main>
 
