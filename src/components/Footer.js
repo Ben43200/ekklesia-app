@@ -5,7 +5,7 @@ export default function Footer(){
 
     return (
         <footer>
-            <h4>Footer</h4>
+            <h4>© Ekklêsia Web</h4>
         </footer>
     )
 }
