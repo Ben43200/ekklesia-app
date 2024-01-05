@@ -29,6 +29,12 @@ const Navbar = () => {
     setOpen(!open);
   };
 
+  const closeAndTop = ()=>{
+    
+      window.scrollTo(0,0)
+      setShowNavbar(!showNavbar);
+    
+  }
 
 
   return (
@@ -52,17 +58,17 @@ const Navbar = () => {
             {/* <div className="x-close">X</div> */}
             <ul>
               <li>
-                <NavLink to="/" onClick={handleShowNavbar}>
+                <NavLink to="/" onClick={closeAndTop}>
                   Home
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/mission" onClick={handleShowNavbar}>
+                <NavLink to="/mission" onClick={closeAndTop}>
                   Notre Mission
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/methodologie" onClick={handleShowNavbar}>
+                <NavLink to="/methodologie" onClick={closeAndTop}>
                  Notre Methodologie
                 </NavLink>
               </li>
@@ -75,12 +81,12 @@ const Navbar = () => {
                 {open ? (
                   <ul className="menu">
                     <li className="menu-item">
-                      <NavLink to="/services" onClick={handleShowNavbar}>
+                      <NavLink to="/services" onClick={closeAndTop}>
                         Nos Services
                       </NavLink>
                     </li>
                     <li className="menu-item">
-                      <NavLink to="/realisations" onClick={handleShowNavbar}>
+                      <NavLink to="/realisations" onClick={closeAndTop}>
                         Nos Réalisations
                       </NavLink>
                     </li>
@@ -89,7 +95,7 @@ const Navbar = () => {
                 {/* {open ? <div>Is Open</div> : <div>Is Closed</div>} */}
               </li>
               <li>
-                <NavLink to="/contact" onClick={handleShowNavbar}>
+                <NavLink to="/contact" onClick={closeAndTop}>
                   Contact
                 </NavLink>
               </li>
