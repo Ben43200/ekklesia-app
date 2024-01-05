@@ -15,6 +15,7 @@ import Service from "./pages/Services";
 import Realisations from "./pages/Realisations";
 import Contact from "./pages/Contact";
 import ContactEmail from "./pages/Contact";
+import ScrollTop from "./components/ScrollTop";
 // import ScrollToTop from "react-scroll-to-top";
 // import { Helmet } from "react-helmet";
 
@@ -28,7 +29,7 @@ root.render(
   // <React.StrictMode>
   <Router>
       <ScrollToTop />
-
+<ScrollTop />
     {/* <Helmet>
       <title>Meteoben Développeur Web</title>
       <meta

@@ -2,10 +2,13 @@ import React from "react"
 import { NavLink } from "react-router-dom";
 import { Button } from "@mui/material";
 import "./methodologie.scss"
+import { useEffect } from "react";
 
 
 const Methodologie = () => {
-
+  useEffect(() => {
+    window.scrollTo(0,0)
+  },[])
   return (
     <main>
       <h2>Méthodologie</h2>

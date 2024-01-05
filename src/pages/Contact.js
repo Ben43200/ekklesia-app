@@ -2,7 +2,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.scss"
-
+import { useEffect } from 'react';
 
 
 export const Contact = () => {
@@ -24,7 +24,9 @@ export const Contact = () => {
                 }
             );
     };
-
+    useEffect(() => {
+        window.scrollTo(0,0)
+      },[])
     return (
      
             <main>

@@ -22,6 +22,7 @@ const Navbar = () => {
     setOpen(!open);
   };
 
+
   return (
     <header>
       <nav className="navbar">

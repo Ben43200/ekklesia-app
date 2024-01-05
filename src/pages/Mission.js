@@ -1,7 +1,11 @@
 import React from "react";
 import "./mission.scss";
+import { useEffect } from "react";
 
 export default function Mission() {
+  useEffect(() => {
+    window.scrollTo(0,0)
+  },[])
   return (
     <main>
         <h2>Un site internet, pourquoi ?</h2>

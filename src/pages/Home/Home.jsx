@@ -7,6 +7,7 @@ import React from "react";
 import "./home.scss";
 import { NavLink } from "react-router-dom";
 import { Button } from '@mui/material';
+import { useEffect } from "react";
 // import Footer from "../components/Footer";
 // import background from "../../compress-background.webp";
 // import BackToUp from "../../components/BackToUp/BackToUp";
@@ -15,6 +16,9 @@ import { Button } from '@mui/material';
 // const imageMedium = "../../compress-image-medium.jpg"
 // const imageLarge = "../../compress-image-large.webp"
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0,0)
+  },[])
   return (
     // <Navbar />
     <main>
