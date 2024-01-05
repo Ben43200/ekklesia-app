@@ -16,7 +16,7 @@ const Navbar = () => {
 
   const handleShowNavbar = () => {
     // début modif scroll
-    window.scrollTo(0,0)
+    // window.scrollTo(0,0)
     //fin modif scroll
 
     setShowNavbar(!showNavbar);
