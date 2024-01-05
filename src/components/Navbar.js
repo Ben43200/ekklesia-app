@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 // import { ReactComponent as Brand } from '../logo.svg'
 import logo from '../utils/Ekklêsia-web-2.webp'
 import React from "react";
+import { useEffect } from "react";
 // import logo from '../logo-png-mini2.webp'
 
 import "./navbar.scss";
@@ -14,13 +15,20 @@ const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
 
   const handleShowNavbar = () => {
+    // début modif scroll
+    window.scrollTo(0,0)
+    //fin modif scroll
+
     setShowNavbar(!showNavbar);
+    
+    
   };
   const [open, setOpen] = React.useState(false);
 
   const handleOpen = () => {
     setOpen(!open);
   };
+
 
 
   return (
