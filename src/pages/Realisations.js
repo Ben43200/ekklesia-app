@@ -11,11 +11,14 @@ export default function Realisations() {
     window.scrollTo(0,0)
   },[])
   return (
-    <div>
+    // <div>
     <main>
       <h2>Nos Réalisations</h2>
    <p>Site de la paroisse de crest</p>
+    <ContactForm />
+
       </main>
-      <ContactForm />
-      </div>
+  //  <ContactForm />
+
+      // </div>
       )}

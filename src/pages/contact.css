@@ -32,6 +32,11 @@ textarea {
   height: 126px;
 }
 
+.btn-close {
+  background-color: #86b98b;
+  display: flex;
+}
+
 form {
   display: flex;
   flex-direction: column;
