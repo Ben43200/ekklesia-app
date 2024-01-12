@@ -44,10 +44,10 @@ const ContactForm = () => {
 
       // Use emailjs to email contact form data
       await emailjs.send(
-        import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TEMPLATE_ID,
+        "service_s6muiwa",
+        "react_contact_form",
         templateParams,
-        import.meta.env.VITE_PUBLIC_KEY,
+        "BX3zRj2D7lUW5xwzS",
     
       );
 

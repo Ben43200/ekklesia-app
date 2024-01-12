@@ -5,6 +5,7 @@ import "./contact.scss"
 import { useEffect } from 'react';
 
 
+
 export const Contact = () => {
     const form = useRef();
 
