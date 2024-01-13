@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 import "../pages/contact.css"
+// import "dotenv/config";
+import env from 'react-dotenv';
 
 const ContactForm = () => {
   const {
@@ -51,6 +53,18 @@ const ContactForm = () => {
         "BX3zRj2D7lUW5xwzS",
     
       );
+      // await emailjs.send(
+      //   import.meta.env.REACT_APP_TEMPLATE_ID,
+      //   import.meta.env.REACT_APP_SERVICE_ID,
+      //   templateParams,
+      //   import.meta.env.REACT_APP_PUBLIC_KEY,
+      // );
+      // await emailjs.send(
+      //   process.env.REACT_APP_TEMPLATE_ID,
+      //   process.env.REACT_APP_SERVICE_ID,
+      //   templateParams,
+      //   process.env.REACT_APP_PUBLIC_KEY,
+      // );
 
       // Display success alert
       toggleAlert('Form submission was successful!', 'success');
