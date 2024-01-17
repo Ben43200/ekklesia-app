@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 import "../pages/contact.css"
 // import "dotenv/config";
-import env from 'react-dotenv';
+// import env from 'react-dotenv';
 
 const ContactForm = () => {
   const {
@@ -67,11 +67,11 @@ const ContactForm = () => {
       // );
 
       // Display success alert
-      toggleAlert('Form submission was successful!', 'success');
+      toggleAlert('Merci pour votre message nous vous répondrons dans les meilleurs délais', 'success');
     } catch (e) {
       console.error(e);
       // Display error alert
-      toggleAlert('Uh oh. Something went wrong.', 'danger');
+      toggleAlert("Oups, Une erreur s'est produite.", 'danger');
     } finally {
       // Re-enable form submission
       setDisabled(false);
@@ -108,7 +108,7 @@ const ContactForm = () => {
                         },
                       })}
                       className='form-control formInput'
-                      placeholder='Name'
+                      placeholder='Votre Nom'
                     ></input>
                     {errors.name && (
                       <span className='errorMessage'>
@@ -126,11 +126,11 @@ const ContactForm = () => {
                           /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
                       })}
                       className='form-control formInput'
-                      placeholder='Email address'
+                      placeholder='Votre adresse mail'
                     ></input>
                     {errors.email && (
                       <span className='errorMessage'>
-                        Please enter a valid email address
+                        Entrez une adresse valide
                       </span>
                     )}
                   </div>
@@ -152,7 +152,7 @@ const ContactForm = () => {
                         },
                       })}
                       className='form-control formInput'
-                      placeholder='Subject'
+                      placeholder='Sujet'
                     ></input>
                     {errors.subject && (
                       <span className='errorMessage'>
@@ -171,7 +171,7 @@ const ContactForm = () => {
                         required: true,
                       })}
                       className='form-control formInput'
-                      placeholder='Message'
+                      placeholder='Votre message'
                     ></textarea>
                     {errors.message && (
                       <span className='errorMessage'>
@@ -199,7 +199,7 @@ const ContactForm = () => {
           role='alert'
         >
           {alertInfo.message}
-          <button
+          <div
             type='button'
             className='btn-close'
             data-bs-dismiss='alert'
@@ -207,7 +207,7 @@ const ContactForm = () => {
             onClick={() =>
               setAlertInfo({ display: false, message: '', type: '' })
             } // Clear the alert when close button is clicked
-          ></button>
+          ></div>
         </div>
       )}
     </div>
