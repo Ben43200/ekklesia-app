@@ -42,7 +42,7 @@ export default function Home() {
             srcSet="bible-mini.webp 320w, bible.webp 640w"
             alt="photo bible"
           /> */}
-          <img alt="image bible" src={require("../../utils/vue_sortie_temple.jpg")} />
+          <img alt="image bible" src={require("../../utils/vue_sortie_temple.jpg")} fetchpriority="high" />
         </div>
         <div className="box-info">
           <h3>Un site internet, pourquoi ?</h3>
