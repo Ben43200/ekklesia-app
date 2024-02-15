@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+// import { Accordion } from '@mui/material';
 
 import ReactDOM from "react-dom/client";
 import Home from "./pages/Home/Home";
@@ -15,7 +16,7 @@ import Service from "./pages/Services";
 import Realisations from "./pages/Realisations";
 import Contact from "./pages/Contact";
 import ContactEmail from "./pages/Contact";
-import ScrollTop from "./components/ScrollTop";
+// import ScrollTop from "./components/ScrollTop";
 import Error from "./pages/error/Error";
 // import ScrollToTop from "react-scroll-to-top";
 // import { Helmet } from "react-helmet";
@@ -28,9 +29,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 
   // <React.StrictMode>
-  <Router>
+  <BrowserRouter>
+  {/* <Router> */}
       <ScrollToTop />
-<ScrollTop />
+{/* <ScrollTop /> */}
     {/* <Helmet>
       <title>Meteoben Développeur Web</title>
       <meta
@@ -60,7 +62,8 @@ root.render(
     </Routes>
     <Footer />
 
-  </Router>
+  {/* </Router> */}
+  </BrowserRouter>
 
   // </React.StrictMode>
 );
