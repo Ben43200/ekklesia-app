@@ -24,7 +24,7 @@ const ContactForm = () => {
   const HandleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("/api/contact", {
+    let response = await fetch("https://ekklesia-server.onrender.com/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",

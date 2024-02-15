@@ -18,6 +18,15 @@ export default function Realisations() {
       console.log(data)
     })
   }
+
+  // useEffect(() =>{
+  //   fetch("/api")
+  //   .then((res) => res.json())
+  //   .then((data) => { console.log(data)})
+  // }, [])
+
+
+
   return (
     // <div>
     <main>
