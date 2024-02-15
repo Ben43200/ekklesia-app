@@ -13,7 +13,7 @@ export default function Realisations() {
   },[])
 
   const apiCall = () => {
-    axios.get('http://localhost:5000/api').then((data) => {
+    axios.get('https://ekklesia-server.onrender.com/api').then((data) => {
       //this console.log will be in our frontend console
       console.log(data)
     })
