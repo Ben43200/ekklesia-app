@@ -43,7 +43,7 @@ const ContactForm = () => {
         success: false,
         message: "Oups il y a eu une erreur, réessayez plus tar...",
       });
-    return true
+    // return true
 
     }
   };
