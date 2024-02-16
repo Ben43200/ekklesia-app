@@ -37,14 +37,16 @@ const ContactForm = () => {
     setButtonText("Envoyer");
     setFormDetails(formInitialDetails);
     if (result.code === 200) {
-      setStatus({ success: true, message: "Votre message nous a bien été transmis" });
+      setStatus({
+        success: true,
+        message: "Votre message nous a bien été transmis",
+      });
     } else {
       setStatus({
         success: false,
         message: "Oups il y a eu une erreur, réessayez plus tar...",
       });
-    // return true
-
+      // return true
     }
   };
 
@@ -79,14 +81,19 @@ const ContactForm = () => {
             type="email"
             value={formDetails.email}
             placeholder="Votre adresse E-mail"
-            // required pattern="{/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/}"
+            required
+            pattern="^(http(s){0,1}:\/\/.){0,1}[\-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([\-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)$"
+            // pattern="/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i"
+            // pattern="[-a-zA-Z0-9~!$%^&amp;*_=+}{'?]+(\.[-a-zA-Z0-9~!$%^&amp;*_=+}{'?]+)*@([a-zA-Z0-9_][-a-zA-Z0-9_]*(\.[-a-zA-Z0-9_]+)*\.([cC][oO][mM]))(:[0-9]{1,5})?"
+            maxLength="64"
+            //  pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/}"
             onChange={(e) => onFormUpdate("email", e.target.value)}
           />
           <input
             type="tel"
             value={formDetails.phone}
-            placeholder="Votre numéro de Téléphone"
-            // pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+            placeholder="Votre numéro de Téléphone (facultatif)"
+            pattern="(0|\\+33|0033)[1-9][0-9]{8}"
             onChange={(e) => onFormUpdate("phone", e.target.value)}
           />
         </div>
