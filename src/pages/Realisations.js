@@ -33,7 +33,7 @@ export default function Realisations() {
       <h2>Nos Réalisations</h2>
    <p>Site de la paroisse de crest</p>
     <ContactForm />
-<button onClick={apiCall}>Make API Call</button>
+{/* <button onClick={apiCall}>Make API Call</button> */}
       </main>
   //  <ContactForm />
 

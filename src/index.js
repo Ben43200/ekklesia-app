@@ -9,20 +9,14 @@ import Methodologie from "./pages/Methodologie";
 import Mission from "./pages/Mission";
 // import Error from "./pages/Error/Error";
 import Footer from "./components/Footer";
-// import ContactUs from "./pages/Contact/ContactUs";
-// import Examples from "./pages/Examples/Examples";
 import ScrollToTop from "./components/ScrollToTop";
 import Service from "./pages/Services";
 import Realisations from "./pages/Realisations";
-import Contact from "./pages/Contact";
-import ContactEmail from "./pages/Contact";
-// import ScrollTop from "./components/ScrollTop";
+import ContactPage from "./pages/ContactPage";
+
 import Error from "./pages/error/Error";
 // import ScrollToTop from "react-scroll-to-top";
 // import { Helmet } from "react-helmet";
-
-
-// import "./css/common.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -49,7 +43,7 @@ root.render(
       <Route path="/mission" element={<Mission />} />
       <Route path="/services" element={<Service />} />
       <Route path="/realisations" element={<Realisations />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/contact" element={<ContactPage />} />
 
       <Route path="*" element={<Error />} />
 

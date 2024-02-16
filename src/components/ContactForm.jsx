@@ -20,60 +20,71 @@ const ContactForm = () => {
     });
   };
 
-
   const HandleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("https://ekklesia-server.onrender.com/api/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(formDetails)
-    });
+    let response = await fetch(
+      "https://ekklesia-server.onrender.com/api/contact",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json;charset=utf-8",
+        },
+        body: JSON.stringify(formDetails),
+      }
+    );
     let result = await response.json();
     setButtonText("Send");
     setFormDetails(formInitialDetails);
-    if (result.code == 200) {
-      setStatus ({ success: true , message: "Message sent successfully"});
-     } else {
-      setStatus ({ success: false , message: "Something went wrong, please try again later"});
-
-      }
-
+    if (result.code === 200) {
+      setStatus({ success: true, message: "Message sent successfully" });
+    } else {
+      setStatus({
+        success: false,
+        message: "Something went wrong, please try again later",
+      });
     }
-  
+  };
 
   return (
     <div className="form-container">
       <h1>Contact Us</h1>
-      <p>We're here to help if you have any questions</p>
+      <p>N'hésitez pas à nous contacter si vous avez des questions</p>
       <form className="form-inner" onSubmit={HandleSubmit}>
         <div className="row">
           <input
             type="text"
             value={formDetails.firstName}
-            placeholder="First Name"
+            placeholder="Votre Prénom"
+            // required name="Pas "
+            required
+            pattern=".{3,}"
+            title="Au moins trois charactères"
             onChange={(e) => onFormUpdate("firstName", e.target.value)}
           />
           <input
             type="text"
             value={formDetails.lastName}
-            placeholder="Last Name"
+            placeholder="Votre Nom"
             onChange={(e) => onFormUpdate("lastName", e.target.value)}
+            required
+            pattern=".{2,}"
+            title="Au moins deux charactères"
           />
         </div>
         <div className="row">
           <input
             type="email"
             value={formDetails.email}
-            placeholder="Email Address"
+            placeholder="Votre adresse E-mail"
+            required pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/}"
             onChange={(e) => onFormUpdate("email", e.target.value)}
           />
           <input
             type="tel"
             value={formDetails.phone}
-            placeholder="Phone No."
+            placeholder="Votre numéro de Téléphone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
             onChange={(e) => onFormUpdate("phone", e.target.value)}
           />
         </div>
@@ -81,7 +92,7 @@ const ContactForm = () => {
           <textarea
             rows="6"
             value={formDetails.message}
-            placeholder="Message"
+            placeholder="Parlez nous de votre projet"
             onChange={(e) => onFormUpdate("message", e.target.value)}
           ></textarea>
         </div>
