@@ -10,6 +10,7 @@ textarea {
   margin-top: 1em;
   font-family: "Merriweather", sans-serif;
   resize: none;
+  width: 100%;
 }
 @media screen and (min-width: 1024px) {
   input,

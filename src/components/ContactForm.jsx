@@ -10,7 +10,7 @@ const ContactForm = () => {
     message: "",
   };
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState("Send");
+  const [buttonText, setButtonText] = useState("Envoyer");
   const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
@@ -22,7 +22,7 @@ const ContactForm = () => {
 
   const HandleSubmit = async (e) => {
     e.preventDefault();
-    setButtonText("Sending...");
+    setButtonText("En cours d'envoi...");
     let response = await fetch(
       "https://ekklesia-server.onrender.com/api/contact",
       {
@@ -34,7 +34,7 @@ const ContactForm = () => {
       }
     );
     let result = await response.json();
-    setButtonText("Send");
+    setButtonText("Envoyer");
     setFormDetails(formInitialDetails);
     if (result.code === 200) {
       setStatus({ success: true, message: "Votre message nous a bien été transmis" });
