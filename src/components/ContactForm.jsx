@@ -77,14 +77,14 @@ const ContactForm = () => {
             type="email"
             value={formDetails.email}
             placeholder="Votre adresse E-mail"
-            required pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/}"
+            // required pattern="{/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/}"
             onChange={(e) => onFormUpdate("email", e.target.value)}
           />
           <input
             type="tel"
             value={formDetails.phone}
             placeholder="Votre numéro de Téléphone"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+            // pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
             onChange={(e) => onFormUpdate("phone", e.target.value)}
           />
         </div>
