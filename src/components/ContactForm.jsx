@@ -37,18 +37,18 @@ const ContactForm = () => {
     setButtonText("Send");
     setFormDetails(formInitialDetails);
     if (result.code === 200) {
-      setStatus({ success: true, message: "Message sent successfully" });
+      setStatus({ success: true, message: "Votre message nous a bien été transmis" });
     } else {
       setStatus({
         success: false,
-        message: "Something went wrong, please try again later",
+        message: "Oups il y a eu une erreur, réessayez plus tar...",
       });
     }
   };
 
   return (
     <div className="form-container">
-      <h1>Contact Us</h1>
+      {/* <h1>Contact Us</h1> */}
       <p>N'hésitez pas à nous contacter si vous avez des questions</p>
       <form className="form-inner" onSubmit={HandleSubmit}>
         <div className="row">
