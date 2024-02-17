@@ -90,7 +90,7 @@ export default function Mission() {
                 <div className="drop-icon" onClick={handleOpen}><button className="button">Mission +</button></div>
                 {open ? (
                   <div>
-                  <h4 className="spray">Spray</h4>
+                  {/* <h4 className="spray">Spray</h4> */}
                   <p>Un site internet pour votre Eglise, pour quoi faire ?
                   Un site internet de paroisse peut servir à plusieurs fins importantes, contribuant à renforcer la
                   communauté et à faciliter la communication. Voici quelques-unes des utilisations potentielles d&#39;un
