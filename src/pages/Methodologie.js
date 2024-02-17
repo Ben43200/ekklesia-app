@@ -28,7 +28,7 @@ const Methodologie = () => {
 
 <div>
                {/* <div className="drop" onClick={handleOpen}>Div</div> */}
-                <div className="drop-icon" onClick={handleOpen}> + </div>
+                <div className="drop-icon" onClick={handleOpen}><button className="button">Mission +</button></div>
                 {open ? (
                   <h4 className="spray">Spray</h4>
                   ) : null}

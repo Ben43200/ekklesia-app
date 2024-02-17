@@ -92,7 +92,7 @@ const ContactForm = () => {
           <input
             type="tel"
             value={formDetails.phone}
-            placeholder="Votre numéro de Téléphone (facultatif)"
+            placeholder="Votre numéro de Téléphone sans espace (facultatif)"
             pattern="(0|\\+33|0033)[1-9][0-9]{8}"
             onChange={(e) => onFormUpdate("phone", e.target.value)}
           />
