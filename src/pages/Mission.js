@@ -137,11 +137,11 @@ export default function Mission() {
                   (vidéo à la demande), en podcast (audio numérique). Pensez aux paroissiens qui ne peuvent plus se
                   déplacer au temple ou à l’église. Si cela nécessite d’investir dans du matériel audio-visuel, la
                   meilleure porte d’entrée est déjà d’avoir votre site d’Eglise.</li>
-                  (fin de l’encadré)
+                  </ul>
                   
-                  En résumé, un site internet pour une paroisse peut être un outil polyvalent qui soutient la
+                  <p>En résumé, un site internet pour une paroisse peut être un outil polyvalent qui soutient la
                   communauté de diverses manières, allant de la communication à l&#39;évangélisation en passant par la
-                  collecte de fonds et par la dynamisation de la vie d’Eglise.</ul></div>
+                  collecte de fonds et par la dynamisation de la vie d’Eglise.</p></div>
                   ) : null}
                   </div>
                 
