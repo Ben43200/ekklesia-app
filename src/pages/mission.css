@@ -45,4 +45,12 @@
     grid-row: 4/5;
     grid-column: 2;
   }
+}
+
+.box-info-mission-sub {
+  border: 2px solid black;
+}
+
+.drop-menu {
+  height: 100%;
 }/*# sourceMappingURL=mission.css.map */
