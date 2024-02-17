@@ -85,15 +85,15 @@ export default function Mission() {
       </div>
       
     </div>
-    <div>
+    <div className="flex-extend-container">
                {/* <div className="drop" onClick={handleOpen}>Div</div> */}
-                <div className="drop-icon" onClick={handleOpen}><button className="button">Mission +</button></div>
+                <button  onClick={handleOpen}className="button button-extend">En savoir +</button>
                 {open ? (
-                  <div>
+                  <div  className="extend-content">
                   {/* <h4 className="spray">Spray</h4> */}
-                  <p>Un site internet pour votre Eglise, pour quoi faire ?
-                  Un site internet de paroisse peut servir à plusieurs fins importantes, contribuant à renforcer la
-                  communauté et à faciliter la communication. Voici quelques-unes des utilisations potentielles d&#39;un
+                  <h2 className="title-extend">Un site internet pour votre Eglise, pour quoi faire ?</h2>
+                  <p>Un site internet de paroisse peut servir à plusieurs fins importantes, contribuant à renforcer la
+                  communauté et à faciliter la communication. Voici quelques-unes des utilisations potentielles d'un
                   site Web pour une Eglise locale :</p>
                   <ul className="box-info box-info-mission-sub">
                 <li>1. Information
@@ -102,7 +102,7 @@ export default function Mission() {
                   d’autres choses. Cela permet aux membres de la communauté et aux visiteurs de rester informés.</li>
                   <li>2. Communication
                   Un site Web peut servir de plateforme pour communiquer des annonces importantes (ex. : un
-                  service funèbre), des nouvelles de l&#39;Eglise, des changements d&#39;horaires, etc. Cela peut être
+                  service funèbre), des nouvelles de l'Eglise, des changements d'horaires, etc. Cela peut être
                   particulièrement utile pour les membres qui ne peuvent pas assister régulièrement aux réunions ou
                   pour les personnes nouvelles dans la communauté.</li>
                   <li> Ressources
@@ -111,26 +111,26 @@ export default function Mission() {
                   peut être utiles pour les membres qui souhaitent approfondir leur foi ou se ressourcer.</li>
                   <li>4. Contact
                   Donner des informations (contact, responsable de groupe, coordonnées) au visiteur, c’est faciliter la
-                  communication entre les membres de l&#39;Eglise et l’extérieur. Les personnes peuvent dès lors poser
+                  communication entre les membres de l'Eglise et l’extérieur. Les personnes peuvent dès lors poser
                   des questions (culte, baptême, mariage, service funèbre) ou exprimer leur intérêt pour votre Eglise.</li> 
                   <li>5. Évangélisation
-                  Un site internet de paroisse est un outil formidable outil d&#39;évangélisation dès lors qu’il fournit des
-                  informations sur la foi chrétienne, les conviction de l&#39;Eglise, et invite les personnes à participer à la
+                  Un site internet de paroisse est un outil formidable outil d'évangélisation dès lors qu’il fournit des
+                  informations sur la foi chrétienne, les conviction de l'Eglise, et invite les personnes à participer à la
                   vie d’Eglise. Ne dit-il pas finalement comme Jésus à ses contemporains : « Venez et voyez » ? (Jn
                   1,39)</li>
                   <li>6. Collecte
-                  Pour soutenir les activités de l&#39;Eglise locale, le site peut inclure des fonctionnalités pour les dons en
+                  Pour soutenir les activités de l'Eglise locale, le site peut inclure des fonctionnalités pour les dons en
                   ligne. Cela permet à ceux qui le souhaitent de contribuer financièrement et de manière sécurisée…
                   en quelques clics.</li>
                   <li>7. Gestion du fichier paroissial
                   Un site Web peut également inclure des fonctionnalités de gestion des membres, permettant aux
-                  responsables de l&#39;Eglise (Conseil presbytéral, conseil paroissial, pasteur, prêtre…) de suivre les
+                  responsables de l'Eglise (Conseil presbytéral, conseil paroissial, pasteur, prêtre…) de suivre les
                   adhésions, de gérer les listes de diffusion, etc.</li>
                   <li>8. Éducation et formation
                   Le site peut être utilisé pour partager des informations éducatives sur la foi, des formations, des
-                  éléments de l&#39;histoire de l&#39;Eglise, des photos, des cartes, des vidéos, des musiques, etc.</li>
+                  éléments de l'histoire de l'Eglise, des photos, des cartes, des vidéos, des musiques, etc.</li>
                   <li>9. Interaction sociale
-                  Les fonctionnalités de médias sociaux sur le site peuvent faciliter l&#39;interaction et le partage en ligne
+                  Les fonctionnalités de médias sociaux sur le site peuvent faciliter l'interaction et le partage en ligne
                   entre les membres de la communauté.</li>
                   <li>10. Diffuser le culte
                   Il y a une véritable demande pour la diffusion (style visio-conférence) du culte en direct, en replay
@@ -140,7 +140,7 @@ export default function Mission() {
                   </ul>
                   
                   <p>En résumé, un site internet pour une paroisse peut être un outil polyvalent qui soutient la
-                  communauté de diverses manières, allant de la communication à l&#39;évangélisation en passant par la
+                  communauté de diverses manières, allant de la communication à l'évangélisation en passant par la
                   collecte de fonds et par la dynamisation de la vie d’Eglise.</p></div>
                   ) : null}
                   </div>

@@ -8,11 +8,11 @@ import { useEffect } from "react";
 const Methodologie = () => {
 
 
-  const [open, setOpen] = React.useState(false);
+  // const [open, setOpen] = React.useState(false);
 
-  const handleOpen = () => {
-    setOpen(!open);
-  };
+  // const handleOpen = () => {
+  //   setOpen(!open);
+  // };
 
 
 
@@ -26,13 +26,7 @@ const Methodologie = () => {
       <h2>Méthodologie</h2>
 
 
-<div>
-               {/* <div className="drop" onClick={handleOpen}>Div</div> */}
-                <div className="drop-icon" onClick={handleOpen}><button className="button">Mission +</button></div>
-                {open ? (
-                  <h4 className="spray">Spray</h4>
-                  ) : null}
-                  </div>
+
                   
 
 

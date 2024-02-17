@@ -12,12 +12,12 @@ export default function Realisations() {
     window.scrollTo(0,0)
   },[])
 
-  const apiCall = () => {
-    axios.get('https://ekklesia-server.onrender.com/api').then((data) => {
-      //this console.log will be in our frontend console
-      console.log(data)
-    })
-  }
+  // const apiCall = () => {
+  //   axios.get('https://ekklesia-server.onrender.com/api').then((data) => {
+  //     //this console.log will be in our frontend console
+  //     console.log(data)
+  //   })
+  // }
 
   // useEffect(() =>{
   //   fetch("/api")

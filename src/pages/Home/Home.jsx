@@ -6,7 +6,7 @@ import React from "react";
 // import Navbar from "../../components/Navbar";
 import "./home.scss";
 import { NavLink } from "react-router-dom";
-import { Button } from '@mui/material';
+// import { Button } from '@mui/material';
 import { useEffect } from "react";
 // import Footer from "../components/Footer";
 // import background from "../../compress-background.webp";
@@ -90,7 +90,7 @@ export default function Home() {
           >
           Nos prestations
         </Button> */}
-        <NavLink to='../service'><button className="button">Services</button></NavLink>
+        <NavLink to='../services'><button className="button">Services</button></NavLink>
 
 
         </div>

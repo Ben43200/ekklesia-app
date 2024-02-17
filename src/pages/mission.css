@@ -48,12 +48,46 @@
 }
 
 .box-info-mission-sub {
-  border: 2px solid black;
+  display: grid;
+  gap: 10px;
 }
 .box-info-mission-sub li {
-  padding: 10px;
+  padding: 0px 10px;
 }
 
 .drop-menu {
   height: 100%;
+}
+
+.sub-title {
+  font-size: 25px;
+  color: black;
+  padding-top: 0;
+}
+
+.extend-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.button-extend {
+  margin: 10px 0px;
+}
+
+.title-extend {
+  margin: 0;
+  padding: 0;
+}
+
+.box-info-mission .p {
+  font-size: 1rem;
+  color: red;
+}
+
+.flex-extend-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=mission.css.map */
