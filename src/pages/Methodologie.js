@@ -1,6 +1,6 @@
 import React from "react"
 import { NavLink } from "react-router-dom";
-import { Button } from "@mui/material";
+// import { Button } from "@mui/material";
 import "./methodologie.scss"
 import { useEffect } from "react";
 
@@ -8,11 +8,11 @@ import { useEffect } from "react";
 const Methodologie = () => {
 
 
-  // const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(false);
 
-  // const handleOpen = () => {
-  //   setOpen(!open);
-  // };
+  const handleOpen = () => {
+    setOpen(!open);
+  };
 
 
 
@@ -26,13 +26,14 @@ const Methodologie = () => {
       <h2>Méthodologie</h2>
 
 
-
-   {/* <div className="dropdown"> */}
-              {/* <li className="drop" onClick={handleOpen}>
-                <div className="drop-icon">Compétences<i className="fas fa-chevron-down"></i></div>
+<div>
+               {/* <div className="drop" onClick={handleOpen}>Div</div> */}
+                <div className="drop-icon" onClick={handleOpen}> + </div>
                 {open ? (
-                  <ul className="menu">
-                    <li className="menu-item"> */}
+                  <h4 className="spray">Spray</h4>
+                  ) : null}
+                  </div>
+                  
 
 
 
