@@ -6,12 +6,40 @@ import { useEffect } from "react";
 
 
 const Methodologie = () => {
+
+
+  // const [open, setOpen] = React.useState(false);
+
+  // const handleOpen = () => {
+  //   setOpen(!open);
+  // };
+
+
+
+
+
   useEffect(() => {
     window.scrollTo(0,0)
   },[])
   return (
     <main>
       <h2>Méthodologie</h2>
+
+
+
+   {/* <div className="dropdown"> */}
+              {/* <li className="drop" onClick={handleOpen}>
+                <div className="drop-icon">Compétences<i className="fas fa-chevron-down"></i></div>
+                {open ? (
+                  <ul className="menu">
+                    <li className="menu-item"> */}
+
+
+
+
+
+
+
       {/* <div class="box-info"> */}
       {/* <h3>Création du site ou refonte d’un site existant</h3>
       <ul>
