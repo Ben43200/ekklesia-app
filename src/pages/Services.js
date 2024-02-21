@@ -29,9 +29,7 @@ version smartphone, de plus en plus utilisée de nos jours.</div>
 <button  onClick={handleOpen}className="button button-extend">En savoir +</button>
                 {open ? (
                   <div  className="extend-content">
-                  {/* <h4 className="spray">Spray</h4> */}
                   <h2 className="title-extend">Notre expertise pour vous</h2>
-              
                   <div>
 Un développeur web est un professionnel de la création et de la maintenance de sites Web. C’est un
 expert qui utilise divers langages de programmation, des outils et des technologies pour concevoir,
@@ -40,7 +38,6 @@ spécifications et, peut-être aussi, vos maquettes en sites internet fonctionne
 attractifs.</div>
 <NavLink to='../realisations'><button className="button">Nos réalisations</button></NavLink></div>
                   ) : null}
-                  {/* </div> */}
                   </div>
       </main>
       )}
