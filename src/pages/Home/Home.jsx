@@ -1,28 +1,15 @@
-// import "./Home.scss";
-// import { getLogements } from "../../services/dataManager";
-// import background from "../../images/background-banner.png";
-// import React, { useEffect, useState } from "react";
 import React from "react";
-// import Navbar from "../../components/Navbar";
 import "./home.scss";
 import { NavLink } from "react-router-dom";
-// import { Button } from '@mui/material';
 import { useEffect } from "react";
-// import Footer from "../components/Footer";
-// import background from "../../compress-background.webp";
-// import BackToUp from "../../components/BackToUp/BackToUp";
-// import Header from "../../components/Header";
-// const imageSmall = "../../compress-image-small.jpg"
-// const imageMedium = "../../compress-image-medium.jpg"
-// const imageLarge = "../../compress-image-large.webp"
+
 export default function Home() {
   useEffect(() => {
     window.scrollTo(0,0)
   },[])
   return (
-    // <Navbar />
     <main>
-      {/* <h2>Création et refonte de site web</h2> */}
+   
 
       <div className="box-info">
         <p>
@@ -37,12 +24,7 @@ export default function Home() {
 
       <div className="grid-container">
         <div className="box-image">
-          {/* <img
-            src="../../utils/vue_sortie_temple.jpg"
-            srcSet="bible-mini.webp 320w, bible.webp 640w"
-            alt="photo bible"
-          /> */}
-          <img alt="image bible" src={require("../../utils/vue_sortie_temple.jpg")} fetchpriority="high" />
+          <img alt="vue sortie temple" src={require("../../utils/vue_sortie_temple.jpg")} fetchpriority="high" />
         </div>
         <div className="box-info">
           <h3>Un site internet, pourquoi ?</h3>
@@ -52,27 +34,11 @@ export default function Home() {
             d’églises. Nous sommes convaincus que cette création ou une refonte
             de ce dernier sera un atout fondamental pour votre paroisse.
           </p>
-          {/* <a href="mission.html">Notre mission</a> */}
-          {/* <Button component={NavLink} to="./mission"
-          variant="contained"
-          color="primary"
-          
-          // theme={theme}
-          >
-          Notre mission
-        </Button> */}
         <NavLink to='../Mission'><div className="flex-extend-container"><button className="button">Mission</button></div></NavLink>
         </div>
         <div className="box-image">
-          {/* <!-- <img src="./parroissiens.webp" alt="paroissiens" /> --> */}
-          {/* <img
-            src="./paroissiens.webp"
-            srcSet="parroissiens-mini.webp 320w, paroissiens.webp 640w"
-            alt="photo paroissiens"
-          /> */}
-          <img alt="image bible" src={require("../../utils/vue_expo_grd_format.jpg")} />
-
-        </div>
+          <img alt="vue expo" src={require("../../utils/vue_expo_grd_format.jpg")} />
+</div>
         <div className="box-info">
           <h3>Que proposons nous ?</h3>
           <p>
@@ -81,30 +47,12 @@ export default function Home() {
             sa communauté. Nous travaillons avec les paroisses de toutes
             tailles, nous vous accompagnerons tout au long de votre projet.
           </p>
-          {/* <a href="services.html">Découvrez nos services</a> */}
-          {/* <Button component={NavLink} to="./methodologie"
-          variant="contained"
-          color="primary"
-          
-          // theme={theme}
-          >
-          Nos prestations
-        </Button> */}
         <NavLink to='../services'><div className="flex-extend-container"><button className="button">Services</button></div></NavLink>
-
-
-        </div>
+</div>
 
         <div className="box-image">
-          {/* <!-- <img src="./pasteur.webp" alt="pasteur" /> --> */}
-          {/* <img
-            src="./pasteur.webp"
-            srcSet="pasteur-mini.webp 320w, pasteur.webp 640w"
-            alt="photo pasteur"
-          /> */}
-          <img alt="image bible" src={require("../../utils/vue_console_etage.jpg")} />
-
-        </div>
+    <img alt="vue console etage" src={require("../../utils/vue_console_etage.jpg")} />
+</div>
         <div className="box-info">
           <h3>Une prestation Sur mesure</h3>
           <p>
@@ -116,25 +64,14 @@ export default function Home() {
             ordinateur, une version tablette, et surtout une version smartphone,
             de plus en plus utilisée de nos jours.
           </p>
-          {/* <a href="methodologie.html">Notre méthodologie</a> */}
           <NavLink to='../methodologie'><div className="flex-extend-container"><button className="button">Methodologie</button></div></NavLink>
-
-
-        </div>
+</div>
         <div className="box-image">
-          {/* <!-- <img src="./homme-priant.webp" alt="homme-priant.jpg" /> --> */}
-          {/* <img
-            src="./homme-priant.webp"
-            srcSet="homme-priant-mini.webp 320w, homme-priant.webp 640w"
-            alt="photo homme priant"
-          /> */}
-          <img alt="image bible" src={require("../../utils/vue_vitrail_etage.jpg")} />
-
-        </div>
+                <img alt="vue vitrail etage" src={require("../../utils/vue_vitrail_etage.jpg")} />
+ </div>
         <div className="box-info">
           <h3>Qui nous sommes nous ?</h3>
           <p>
-            {" "}
             Eukklêsia Web est né d’une idée entre un ancien pasteur et un
             développeur web venant de lancer sa micro entreprise tout deux
             paroissiens de la paroisse protestante unie du Crestois( Crest
@@ -143,16 +80,7 @@ export default function Home() {
           </p>
           <NavLink to='../contact'><div className="flex-extend-container"><button className="button">Mieux nous connaître</button></div></NavLink>
 
-        {/* <div className="box-image">
-          {/* <!-- <img src="./homme-priant.webp" alt="homme-priant.jpg" /> --> */}
-          {/* <img
-            src="./homme-priant.webp"
-            srcSet="homme-priant-mini.webp 320w, homme-priant.webp 640w"
-            alt="photo homme priant"
-          /> */}
-          {/* <img alt="image bible" src={require("../../utils/vue_sortie_temple.jpg")} /> */}
 
-        {/* </div>  */} 
         </div>
       </div>
     </main>

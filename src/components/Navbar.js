@@ -4,15 +4,17 @@ import { NavLink } from "react-router-dom";
 // import { ReactComponent as Brand } from '../logo.svg'
 import logo from "../utils/Ekklêsia-web-2.webp";
 import React from "react";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 // import logo from '../logo-png-mini2.webp'
 
 import "./navbar.scss";
-import { Squash as Hamburger } from "hamburger-react";
+// import { Squash as Hamburger } from "hamburger-react";
 // import { Squeeze as Hamburger } from 'hamburger-react'
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
+  let menuRef = useRef()
+
 
   const handleShowNavbar = () => {
     // début modif scroll
@@ -21,16 +23,35 @@ const Navbar = () => {
 
     setShowNavbar(!showNavbar);
   };
+  const closeAndTop = () => {
+    window.scrollTo(0, 0);
+    // setShowNavbar(!showNavbar);
+  };
   // const [open, setOpen] = React.useState(false);
 
   // const handleOpen = () => {
   //   setOpen(!open);
   // };
-
-  const closeAndTop = () => {
-    window.scrollTo(0, 0);
-    setShowNavbar(!showNavbar);
+  useEffect(()=> {
+    let handler = (e) =>{
+      if(!menuRef.current.contains(e.target)){
+      setShowNavbar(false)
+      // console.log(menuRef.current);
+        
+      
+    }
   };
+    document.addEventListener("mousedown", handler)
+  
+  return()=>{
+    document.removeEventListener("mousedown", handler)
+  }
+  });
+
+  // const closeAndTop = () => {
+  //   window.scrollTo(0, 0);
+  //   setShowNavbar(!showNavbar);
+  // };
 
   return (
     <header>
@@ -43,7 +64,7 @@ const Navbar = () => {
           {/* </div> */}
           <div className="menu-icon" onClick={handleShowNavbar}>
             {/* <Hamburger /> */}
-            <span className="burger-icon">
+            <span className="burger-icon" ref={menuRef}>
               <span></span>
               <span></span>
               <span></span>
