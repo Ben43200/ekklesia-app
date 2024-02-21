@@ -61,7 +61,7 @@ export default function Home() {
           >
           Notre mission
         </Button> */}
-        <NavLink to='../Mission'><button className="button">Mission</button></NavLink>
+        <NavLink to='../Mission'><div className="flex-extend-container"><button className="button">Mission</button></div></NavLink>
         </div>
         <div className="box-image">
           {/* <!-- <img src="./parroissiens.webp" alt="paroissiens" /> --> */}
@@ -90,7 +90,7 @@ export default function Home() {
           >
           Nos prestations
         </Button> */}
-        <NavLink to='../services'><button className="button">Services</button></NavLink>
+        <NavLink to='../services'><div className="flex-extend-container"><button className="button">Services</button></div></NavLink>
 
 
         </div>
@@ -117,7 +117,7 @@ export default function Home() {
             de plus en plus utilisée de nos jours.
           </p>
           {/* <a href="methodologie.html">Notre méthodologie</a> */}
-          <NavLink to='../methodologie'><button className="button">Methodologie</button></NavLink>
+          <NavLink to='../methodologie'><div className="flex-extend-container"><button className="button">Methodologie</button></div></NavLink>
 
 
         </div>
@@ -141,7 +141,7 @@ export default function Home() {
             ,drôme). Nous avons pour vocation de dynamiser la vie des églises
             locales à travers ce médium.
           </p>
-          <a href="#">Mieux nous connître</a>
+          <NavLink to='../contact'><div className="flex-extend-container"><button className="button">Mieux nous connaître</button></div></NavLink>
 
         {/* <div className="box-image">
           {/* <!-- <img src="./homme-priant.webp" alt="homme-priant.jpg" /> --> */}
