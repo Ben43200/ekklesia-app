@@ -90,7 +90,7 @@
 }
 #root > main {
   grid-area: main;
-  padding:20px 5px;
+  padding:20px 2px;
 }
 
 #root > footer {
@@ -154,6 +154,7 @@ width:100%;
 .box-info{
   place-self: center;
   font-family: caramel cursive;
+  padding: 0px 3px;
 
 }
 .box-info:first-child{
