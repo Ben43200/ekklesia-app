@@ -18,7 +18,7 @@ export default function Mission() {
         <div className="box-image box-image-mission">
           <img
             alt="image bible"
-            src={require("../utils/vue_temple_orgue.jpg")}
+            src={require("../../utils/vue_temple_orgue.jpg")}
           />
         </div>
 
@@ -57,13 +57,13 @@ export default function Mission() {
         <div className="box-image box-image-mission">
           <img
             alt="image bible"
-            src={require("../utils/photo_temple_croix.jpg")}
+            src={require("../../utils/photo_temple_croix.jpg")}
           />
         </div>
         <div className="box-image box-image-mission">
           <img
             alt="image bible"
-            src={require("../utils/vue_temple_orgue.jpg")}
+            src={require("../../utils/vue_temple_orgue.jpg")}
           />
         </div>
         <div className="box-info">
@@ -94,10 +94,10 @@ export default function Mission() {
         </div>
 
         <div className="box-image box-image-mission">
-          <img alt="vitrail" src={require("../utils/vue_vitrail.jpg")} />
+          <img alt="vitrail" src={require("../../utils/vue_vitrail.jpg")} />
         </div>
         <div className="box-image box-image-mission">
-          <img alt="affiche expo" src={require("../utils/photo_affiche.jpg")} />
+          <img alt="affiche expo" src={require("../../utils/photo_affiche.jpg")} />
         </div>
         <div className="box-info">
           <p>

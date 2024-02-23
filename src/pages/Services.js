@@ -1,6 +1,7 @@
 import React from "react"
 
-import "./methodologie.scss"
+import "../pages/Methodologie/methodologie.scss";
+
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 

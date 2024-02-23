@@ -1,9 +1,9 @@
 import React from "react"
 // import { NavLink } from "react-router-dom";
 // import { Button } from "@mui/material";
-import "./methodologie.scss"
+import "../pages/Methodologie/methodologie.scss"
 import { useEffect } from "react";
-import ContactForm from "../components/ContactForm";
+import ContactForm from "../components/ContactForm/ContactForm";
 // import axios from "axios";
 
 

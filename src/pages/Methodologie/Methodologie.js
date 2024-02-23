@@ -94,7 +94,7 @@ précieuses qui peuvent être utilisées pour créer un site Web de qualité pou
             srcSet="parroissiens-mini.webp 320w, paroissiens.webp 640w"
             alt="photo paroissiens"
           /> */}
-          <img alt="image bible" src={require("../utils/methodo.jpg")} />
+          <img alt="image bible" src={require("../../utils/methodo.jpg")} />
 
         </div>
         <NavLink to='../contact'><button className="button">Contact</button></NavLink>

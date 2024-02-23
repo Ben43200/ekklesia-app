@@ -4,15 +4,15 @@ import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-rou
 
 import ReactDOM from "react-dom/client";
 import Home from "./pages/Home/Home";
-import Navbar from "./components/Navbar";
-import Methodologie from "./pages/Methodologie";
-import Mission from "./pages/Mission";
+import Navbar from "./components/Navbar/Navbar";
+import Methodologie from "./pages/Methodologie/Methodologie";
+import Mission from "./pages/Mission/Mission";
 // import Error from "./pages/Error/Error";
-import Footer from "./components/Footer";
+import Footer from "./components/footer/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import Service from "./pages/Services";
 import Realisations from "./pages/Realisations";
-import ContactPage from "./pages/ContactPage";
+import ContactPage from "./pages/ContactPage/ContactPage";
 
 import Error from "./pages/error/Error";
 // import ScrollToTop from "react-scroll-to-top";

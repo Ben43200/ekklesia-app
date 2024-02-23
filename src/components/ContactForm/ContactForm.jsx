@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../pages/contact.scss";
+import "./contact.scss";
 
 const ContactForm = () => {
   const formInitialDetails = {

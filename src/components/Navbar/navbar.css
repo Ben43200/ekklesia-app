@@ -3,7 +3,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  background-color: #f6e6d1;
+  background-color: #ffffd3;
+}
+
+header {
+  box-shadow: 10px 5px 5px grey;
+  border-radius: 10px;
 }
 
 .container {
@@ -16,9 +21,8 @@ body {
   height: 100%;
 }
 
-header {
-  box-shadow: 10px 5px 5px grey;
-  border-radius: 10px;
+#root > header > nav > div > div.nav-elements.false > ul > li {
+  list-style: none;
 }
 
 .navbar {

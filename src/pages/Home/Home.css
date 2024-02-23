@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Caramel&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&family=Philosopher&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 * {
   /* remember to define focus styles! */
   /* tables still need 'cellspacing="0"' in the markup */
@@ -110,6 +111,20 @@
   font-weight: 400;
 }
 
+.bold-text {
+  font-weight: 800;
+}
+
+.box-info-bordered-title {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 0.3rem;
+}
+
+h2 {
+  padding-bottom: 15px;
+}
+
 #root {
   display: grid;
   grid-template-areas: " header " "main " "footer ";
@@ -191,6 +206,7 @@ img {
 .box-info {
   place-self: center;
   font-family: caramel cursive;
+  font-family: "Questrial", sans-serif;
   padding: 0px 3px;
 }
 
