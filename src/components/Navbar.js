@@ -107,7 +107,7 @@ const Navbar = () => {
         </div>
       </nav>
       <div className="title-container">
-        <h1>Ekklêsia Web, dynamisez votre vie d'église avec le Net !</h1>
+        <h1>Avec Ekklêsia Web, dynamisez votre vie d'église avec le Net !</h1>
       </div>
     </header>
   );
