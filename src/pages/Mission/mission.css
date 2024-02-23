@@ -59,10 +59,6 @@
   padding: 0px 10px;
 }
 
-.drop-menu {
-  height: 100%;
-}
-
 .sub-title {
   font-size: 25px;
   color: black;
@@ -82,12 +78,7 @@
 
 .title-extend {
   margin: 0;
-  padding: 0;
-}
-
-.box-info-mission .p {
-  font-size: 1rem;
-  color: red;
+  padding-top: 15px;
 }
 
 .flex-extend-container {

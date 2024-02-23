@@ -46,8 +46,4 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-#root > main {
-  grid-area: main;
 }/*# sourceMappingURL=error.css.map */

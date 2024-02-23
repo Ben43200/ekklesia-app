@@ -172,10 +172,7 @@ header {
 // }
 
 .menu {
-  //   position: absolute;
 
-  //   list-style-type: none;
-  //   margin: 5px 0;
   //   //   padding: 0;
   display: flex;
   flex-direction: column;
@@ -197,12 +194,15 @@ header {
 
 }
 
-.menu > li:hover {
-  //   background-color: lightgray;
-}
+// .menu > li:hover {
+//   //   background-color: lightgray;
+// }
 .drop {
   color: white;
   // top: 0;
+}
+.drop-menu{
+height: 100%;
 }
 
 h1 {
@@ -245,90 +245,4 @@ h1 {
   padding-left: 4px;
   // position: absolute;
 }
-// .drop-icon{
-//   display: flex;
-// }
-// @media (max-width: 600px) {
-//     .
-// }
-// .x-close{
-//   font-size:50px;
-//   font-weight: bold;
-//   position: relative;
-//   padding-top: 15px;
-//   // display: block;
-//   // width: 30px;
-//   // height: 3px;
-//   color: white;
-//   // margin: 6px 0;
 
-// }
-
-// // .menu > li {
-// //   width: 100%;
-// //   height: 100%;
-// //   text-align: left;
-
-// //   background: none;
-// //   color: inherit;
-// //   border: none;
-// //   padding: 5px;
-// //   margin: 0;
-// //   font: inherit;
-// //   cursor: pointer;
-// // }
-
-// // .drop {
-// //   color: white;
-// //   list-style: none;
-// //   display: none;
-// //   //   display: flex;
-// //   //   position: relative;
-// //   //   position: absolute;
-// // }
-
-// // .menu {
-// //   display: block;
-// // }
-
-// // .drop {
-// // .drop.active {
-// //   //   width: 206px;
-// //   height: 80px;
-// //   opacity: 0.95;
-// //   display: flex;
-// // }
-
-// //   //   display: block;
-// //   //   position: relative;
-// //   font-size: 16px;
-// //   font-weight: 400;
-// //   //   color: #2f234f;
-// //   color: white;
-// //   text-decoration: none;
-// //   //   color: #574c4c;
-// //   color: white;
-// //   font-weight: 500;
-// //   //   position: relative;
-// //   position: sticky;
-// //   height: 80px;
-// // }
-
-// // .nav-elements ul li:last-child {
-// //   color: red;
-// //   display: flex;
-// // }
-
-// // .drop {
-// //   width: 100%;
-// //   height: 100%;
-// //   text-align: left;
-
-// //   background: none;
-// //   color: inherit;
-// //   border: none;
-// //   padding: 5px;
-// //   margin: 0;
-// //   font: inherit;
-// //   cursor: pointer;
-// // }

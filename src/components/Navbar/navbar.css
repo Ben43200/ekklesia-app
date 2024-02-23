@@ -159,6 +159,10 @@ header {
   color: white;
 }
 
+.drop-menu {
+  height: 100%;
+}
+
 h1 {
   font-size: 20px;
   color: white;
