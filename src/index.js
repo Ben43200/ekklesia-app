@@ -10,7 +10,7 @@ import Mission from "./pages/Mission/Mission";
 // import Error from "./pages/Error/Error";
 import Footer from "./components/footer/Footer";
 import ScrollToTop from "./components/ScrollToTop";
-import Service from "./pages/Services";
+import Service from "./pages/Services/Services";
 import Realisations from "./pages/Realisations";
 import ContactPage from "./pages/ContactPage/ContactPage";
 
