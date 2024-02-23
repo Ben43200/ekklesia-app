@@ -8,7 +8,12 @@ body {
   font-family: "Poppins", sans-serif;
   // background-color: #fcfcfc;
   // background-color: #f6e6d1;
-  background-color: #ffff99;
+  // background-color: #ffff99;
+  background-color: #ffffd3;
+}
+header {
+  box-shadow: 10px 5px 5px grey;
+  border-radius: 10px;
 }
 
 .container {
@@ -20,10 +25,15 @@ body {
   align-items: center;
   height: 100%;
 }
-header {
-  box-shadow: 10px 5px 5px grey;
-  border-radius: 10px;
+
+
+//action pour passer par au dessus de la règle des li menu
+#root > header > nav > div > div.nav-elements.false > ul > li{
+  list-style: none;
 }
+
+
+//Menu container
 
 .navbar {
   height: 70px;
@@ -38,6 +48,7 @@ header {
   }
 }
 
+//logo
 .logo-1 {
   width: 17%;
   height: 60px;
@@ -59,8 +70,7 @@ header {
   display: none;
 }
 
-// .nav-elements {
-// }
+
 
 .nav-elements ul {
   display: flex;
@@ -182,16 +192,9 @@ header {
 }
 
 .menu > li {
-  //   margin: 0;
-  //   color: red;
-  // background-color: red;
-  width: 100%;
-  //   padding: 0;
-  //   color: white;
-  //   position: absolute;
-  //   //   background-color: lightgray;
 
-  //   //   background-color: white;
+  width: 100%;
+
 }
 
 .menu > li:hover {

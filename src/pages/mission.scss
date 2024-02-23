@@ -1,6 +1,8 @@
 @import "../css/mixinsandfunctions.scss";
 
-
+.box-info-mission-sub >li{
+  list-style: none;
+}
 
 .box-info-bordered {
     box-shadow: 3px 3px 7px 2px #4054b2;
@@ -71,6 +73,10 @@ li{
 padding:0px 10px;
 }
 }
+
+// #root > main > div.grid-container-mission > .box- > ul > li{
+//   list-style: disc;
+// }
 
 
 .drop-menu{

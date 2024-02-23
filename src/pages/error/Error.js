@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import React from "react";
 import "./error.scss";
 
-
 export default function Error() {
     return (
 
@@ -14,7 +13,9 @@ export default function Error() {
                     Retourner sur la page d’accueil
                 </Link>
             </div>
+
         </main>
+
 
     );
 }

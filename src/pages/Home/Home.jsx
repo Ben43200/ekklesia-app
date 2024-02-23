@@ -1,7 +1,9 @@
+
 import React from "react";
 import "./home.scss";
 import { NavLink } from "react-router-dom";
 import { useEffect } from "react";
+
 
 export default function Home() {
   useEffect(() => {
@@ -70,9 +72,9 @@ export default function Home() {
                 <img alt="vue vitrail etage" src={require("../../utils/vue_vitrail_etage.jpg")} />
  </div>
         <div className="box-info">
-          <h3>Qui nous sommes nous ?</h3>
+          <h3>Qui sommes nous ?</h3>
           <p>
-            Eukklêsia Web est né d’une idée entre un ancien pasteur et un
+            Ekklêsia Web est né d’une idée entre un ancien pasteur et un
             développeur web venant de lancer sa micro entreprise tout deux
             paroissiens de la paroisse protestante unie du Crestois( Crest
             ,drôme). Nous avons pour vocation de dynamiser la vie des églises
@@ -83,6 +85,7 @@ export default function Home() {
 
         </div>
       </div>
+
     </main>
   );
 }
