@@ -77,17 +77,20 @@ export default function Mission() {
         </div>
         <div className="box-info-bordered">
           <h3 className="box-info-bordered-title">
-            Il offre de nombreuses opportunités, comme :
+            Un site internet offre de nombreuses opportunités pour :
           </h3>
           <ul>
-            <li>La possibilité de lancer de nouveaux produits et services.</li>
             <li>
-              La possibilité de créer des campagnes d’information ou de
-              promotion efficaces.
+              Faire connaître les services qu'offre l'Eglise locale et lancer de
+              nouvelles activités;
             </li>
             <li>
-              La possibilité de communiquer avec les clients de manière
-              personnalisée.
+              Créer des campagnes d'information, d'évangélisation et annoncer la
+              Bonne Nouvelle;
+            </li>
+            <li>
+              Communiquer avec les paroissiens de manière personnalisée et
+              encourager les interactions entre membres de la communauté.
             </li>
           </ul>
         </div>
