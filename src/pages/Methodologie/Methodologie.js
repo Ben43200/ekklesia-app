@@ -97,7 +97,9 @@ précieuses qui peuvent être utilisées pour créer un site Web de qualité pou
           <img alt="image bible" src={require("../../utils/methodo.jpg")} />
 
         </div>
+        <div className="button-group">
         <NavLink to='../contact'><button className="button">Contact</button></NavLink>
+        </div>
 
         </div>
     </main>

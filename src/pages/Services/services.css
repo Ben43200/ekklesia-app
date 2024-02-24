@@ -7,4 +7,29 @@
   font-weight: 700;
   text-align: center;
   padding-top: 30px;
+}
+
+.pack-high-title > p {
+  padding-top: 10px;
+  color: red;
+}
+
+.forfaits {
+  padding: 10px 0px;
+}
+
+.pack-list > li {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.pack-list > li::marker {
+  margin: 0;
+  padding-right: 0;
+  color: #131f53;
+}
+
+.pack-title-price {
+  padding-top: 10px;
 }/*# sourceMappingURL=services.css.map */

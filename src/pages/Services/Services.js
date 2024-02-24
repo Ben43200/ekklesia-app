@@ -53,33 +53,51 @@ export default function Service() {
         ) : null}
       </div>
       <h2 className="pack-high-title">Nos offres</h2>
-      <p>
-        Avant tout, sachez que nous nous occupons de stocker votre site internet
+    
+      <p className="forfaits"><span className="bold-text"> Avant tout, sachez que nous nous occupons de stocker votre site internet
         sur nos serveurs pour un forfait de 10€ par années pour un site
         classique et ce pour des contraintes techniques notamment et plus de
-        facilité de gestion de notre côté.
-      </p>
-      <p>
-        Indépendamment vous avez la possibilité de souscrire à un forfait de 25€
-        offrant 5 modifications mineures, changement de photos, de titres et de
-        phrases par exemple.
-      </p>
+        facilité de gestion de notre côté.</span>
+        </p>
+     <p className="forfaits">
+      <span className="bold-text">
+        Indépendamment vous avez la possibilité de souscrire à un forfait mensuel de 25€ 
+        offrant 5 modifications mineures par mois, changement de photos, de titres et de
+        phrases par exemple.</span>
+        </p>
+        <p>Pour des modifications plus importantes n'hésitez pas à nous contacter.</p>
+        <NavLink to="../contact">
+          <button className="button">Contact</button>
+        </NavLink>
       <h2 className="pack-title">Pack 1 Site type "vitrine"</h2>
-   
-      <ul>
+
+      <ul className="pack-list">
         <li>5 Pages, par exemple une page accueil et 4 autres pages.</li>
         <li>
           10 photos, avec possibilité de faire un carrousel(images qui défilent
           pour 3 d'entre-elles) sur une des pages.
         </li>
-        <li></li>
+        <li>
+          Un site compatible sur tous les écrans desktop, mobile, tablette.
+        </li>
+        <li>
+          Et bien évidemment, Sécurisation complète du site pour minimiser les
+          chances de se faire pirater et d’augmenter la confiance des visiteurs.
+        </li>
       </ul>
-      <h3>Tarif: 500€</h3>
+      <h3 className="pack-title-price">Tarif: 500€</h3>
       <h2 className="pack-title">Pack 2 Refonte d'un site vitrine existant</h2>
-<p></p>
-      <h3>Tarif: 600€</h3>
-      <h2 className="pack-title">Solution personnalisée ou avec fonctionnalités avancées</h2>
-      <h3>Sur devis</h3>
+      <p>Les prestations du pack 1 avec reprise du contenu existant.</p>
+      <h3 className="pack-title-price">Tarif: 600€</h3>
+      <h2 className="pack-title">
+        Solution personnalisée ou avec fonctionnalités avancées
+      </h2>
+      <h3 className="pack-title-price">Sur devis</h3>
+      <div className="button-group">
+        <NavLink to="../contact">
+          <button className="button">Contact</button>
+        </NavLink>
+      </div>
     </main>
   );
 }
