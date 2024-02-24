@@ -84,7 +84,7 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink to="/methodologie" onClick={closeAndTop}>
-                  Notre Methodologie
+                  Notre Méthodologie
                 </NavLink>
               </li>
               <li>
