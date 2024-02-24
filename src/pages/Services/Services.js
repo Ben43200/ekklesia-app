@@ -55,7 +55,7 @@ export default function Service() {
       <h2 className="pack-high-title">Nos offres</h2>
     
       <p className="forfaits"><span className="bold-text"> Avant tout, sachez que nous nous occupons de stocker votre site internet
-        sur nos serveurs pour un forfait de 10€ par années pour un site
+        sur nos serveurs pour un forfait de 10€ par année pour un site
         classique et ce pour des contraintes techniques notamment et plus de
         facilité de gestion de notre côté.</span>
         </p>
@@ -82,7 +82,7 @@ export default function Service() {
         </li>
         <li>
           Et bien évidemment, Sécurisation complète du site pour minimiser les
-          chances de se faire pirater et d’augmenter la confiance des visiteurs.
+          risques de se faire pirater et augmenter la confiance des visiteurs.
         </li>
       </ul>
       <h3 className="pack-title-price">Tarif: 500€</h3>

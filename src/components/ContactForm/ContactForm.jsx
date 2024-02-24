@@ -53,7 +53,7 @@ const ContactForm = () => {
   return (
     <div className="form-container">
       {/* <h1>Contact Us</h1> */}
-      <p>N'hésitez pas à nous contacter si vous avez des questions</p>
+      <p>N'hésitez pas à nous contacter si vous avez des questions, attendez bien de voir la phrase de confirmation de votre envoi.</p>
       <form className="form-inner" onSubmit={HandleSubmit}>
         <div className="row">
           <input
