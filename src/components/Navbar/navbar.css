@@ -31,23 +31,24 @@ header {
   position: fixed;
   width: 100%;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .navbar {
     width: 1240px;
   }
 }
 
 .logo-1 {
-  width: 17%;
-  height: 60px;
+  width: 15%;
+  height: 50px;
   z-index: 300;
 }
 @media screen and (min-width: 768px) {
   .logo-1 {
-    width: 7%;
+    width: 8%;
+    height: 60px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1025px) {
   .logo-1 {
     width: 6%;
   }
@@ -171,7 +172,7 @@ h1 {
   padding-top: 50px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   h1 {
     font-size: 30px;
   }
@@ -187,7 +188,7 @@ h1 {
   border-radius: 10px;
   z-index: 98;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .title-container {
     width: 1240px;
   }
