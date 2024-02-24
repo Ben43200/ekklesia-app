@@ -53,28 +53,44 @@ export default function Service() {
         ) : null}
       </div>
       <h2 className="pack-high-title">Nos offres</h2>
-    
-      <p className="forfaits"><span className="bold-text"> Avant tout, sachez que nous nous occupons de stocker votre site internet
-        sur nos serveurs pour un forfait de 10€ par année pour un site
-        classique et ce pour des contraintes techniques notamment et plus de
-        facilité de gestion de notre côté.</span>
-        </p>
-     <p className="forfaits">
-      <span className="bold-text">
-        Indépendamment vous avez la possibilité de souscrire à un forfait mensuel de 25€ 
-        offrant 5 modifications mineures par mois, changement de photos, de titres et de
-        phrases par exemple.</span>
-        </p>
-        <p>Pour des modifications plus importantes n'hésitez pas à nous contacter.</p>
-        <NavLink to="../contact">
-          <button className="button">Contact</button>
-        </NavLink>
-        <p>Au préalable, dans tout les cas de figure, une prise de contact personnalisée vous sera proposée lors de laquelle nous évoquerons en détails projet.</p>
+
+      <p className="forfaits">
+        <span className="bold-text">
+          {" "}
+          Avant tout, sachez que nous nous occupons de stocker votre site
+          internet sur nos serveurs pour un forfait de 10€ par année pour un
+          site classique et ce pour des contraintes techniques notamment et plus
+          de facilité de gestion de notre côté.
+        </span>
+      </p>
+      <p className="forfaits">
+        <span className="bold-text">
+          Indépendamment vous avez la possibilité de souscrire à un forfait
+          mensuel de 25€ offrant 5 modifications mineures par mois, changement
+          de photos, de titres et de phrases par exemple.
+        </span>
+      </p>
+      <p>
+        Pour des modifications plus importantes n'hésitez pas à nous contacter.
+      </p>
+      <NavLink to="../contact">
+        <button className="button">Contact</button>
+      </NavLink>
+      <p>
+        Au préalable, dans tout les cas de figure, une prise de contact
+        personnalisée vous sera proposée lors de laquelle nous évoquerons en
+        détails projet.
+      </p>
       <h2 className="pack-title">Pack 1 Site type "vitrine"</h2>
 
       <ul className="pack-list">
-       <li>Accompagnement dans le choix de votre nom de domaine qui reste à votre charge, quelques euros par ans suivant l'extension choisie</li>
+        <li>
+          Accompagnement dans le choix de votre nom de domaine qui reste à votre
+          charge, quelques euros par ans suivant l'extension choisie
+        </li>
         <li>5 Pages, par exemple une page accueil et 4 autres pages.</li>
+        <li>Intégration de votre logo</li>
+        <li>Création d'un menu avec des ancres compatible en responsive(mobile).</li>
         <li>
           10 photos, avec possibilité de faire un carrousel(images qui défilent
           pour 3 d'entre-elles) sur une des pages.
