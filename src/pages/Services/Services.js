@@ -90,7 +90,7 @@ export default function Service() {
         </li>
         <li>5 Pages, par exemple une page accueil et 4 autres pages.</li>
         <li>Intégration de votre logo</li>
-        <li>Création d'un menu avec des ancres compatible en responsive(mobile).</li>
+        <li>Création d'un menu avec des ancres compatible en responsive (mobile).</li>
         <li>
           10 photos, avec possibilité de faire un carrousel(images qui défilent
           pour 3 d'entre-elles) sur une des pages.
