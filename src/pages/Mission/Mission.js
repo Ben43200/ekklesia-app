@@ -32,7 +32,7 @@ export default function Mission() {
             publicitaires, communiquer avec leurs clients ou leurs administrés…
             Pourquoi ? Parce que{" "}
             <span className="bold-text">
-              les médias numériques leur ouvrent de nombreuses possibilités.
+              les médias numériques ouvrent de nombreuses possibilités.
             </span>
           </p>
         </div>

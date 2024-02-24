@@ -58,7 +58,7 @@ export default function Service() {
         <span className="bold-text">
           {" "}
           Avant tout, sachez que nous nous occupons de stocker votre site
-          internet sur nos serveurs pour un forfait de 10€ par année pour un
+          internet sur nos serveurs pour un forfait de 30€ par année pour un
           site classique et ce pour des contraintes techniques notamment et plus
           de facilité de gestion de notre côté.
         </span>
@@ -90,7 +90,9 @@ export default function Service() {
         </li>
         <li>5 Pages, par exemple une page accueil et 4 autres pages.</li>
         <li>Intégration de votre logo.</li>
-        <li>Création d'un menu avec des ancres compatible en responsive (mobile).</li>
+        <li>
+          Création d'un menu avec des ancres compatible en responsive (mobile).
+        </li>
         <li>
           10 photos, avec possibilité de faire un carrousel(images qui défilent
           pour 3 d'entre-elles) sur une des pages.
@@ -98,7 +100,10 @@ export default function Service() {
         <li>
           Un site compatible sur tous les écrans desktop, mobile, tablette.
         </li>
-        <li>Mise en place du référencement naturel SEO pour que votre site apparaisse sur les moteurs de recherche.</li>
+        <li>
+          Mise en place du référencement naturel SEO pour que votre site
+          apparaisse sur les moteurs de recherche.
+        </li>
         <li>
           Et bien évidemment, Sécurisation complète du site pour minimiser les
           risques de se faire pirater et augmenter la confiance des visiteurs.
@@ -106,7 +111,14 @@ export default function Service() {
       </ul>
       <h3 className="pack-title-price">Tarif: 500€</h3>
       <h2 className="pack-title">Pack 2 Refonte d'un site vitrine existant</h2>
-      <p>Les prestations du pack 1 avec reprise du contenu existant.</p>
+      <p>
+        Les prestations du pack 1 avec reprise du contenu existan:
+        <ul className="pack-list">
+          <li>vos photos</li>
+          <li>vos textes</li>
+          <li>votre logo</li>
+        </ul>
+      </p>
       <h3 className="pack-title-price">Tarif: 600€</h3>
       <h2 className="pack-title">
         Solution personnalisée ou avec fonctionnalités avancées
