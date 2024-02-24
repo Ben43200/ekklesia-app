@@ -32,4 +32,13 @@
 
 .pack-title-price {
   padding-top: 10px;
+}
+
+.box-image-identite > img {
+  width: 250px;
+}
+
+.box-image-identite {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=services.css.map */

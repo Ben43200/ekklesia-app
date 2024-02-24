@@ -65,7 +65,7 @@ export default function Service() {
       </p>
       <p className="forfaits">
         <span className="bold-text">
-          Indépendamment vous avez la possibilité de souscrire à un forfait
+          Indépendamment vous avez la possibilité de souscrire à un forfait "Sérénité EW"
           mensuel de 25€ offrant 5 modifications mineures par mois, changement
           de photos, de titres et de phrases par exemple.
         </span>
@@ -111,15 +111,31 @@ export default function Service() {
       </ul>
       <h3 className="pack-title-price">Tarif: 500€</h3>
       <h2 className="pack-title">Pack 2 Refonte d'un site vitrine existant</h2>
-      <p>
         Les prestations du pack 1 avec reprise du contenu existan:
         <ul className="pack-list">
           <li>vos photos</li>
           <li>vos textes</li>
-          <li>votre logo</li>
+          <li>votre logo si vous en avez un</li>
         </ul>
-      </p>
       <h3 className="pack-title-price">Tarif: 600€</h3>
+      <h2 className="pack-title">Pack Identité visuelle</h2>
+      <p>Une identité visuelle est l’ensemble des éléments graphiques qui reflètent votre Église</p>
+      <p>Elle valorise et met en avant votre paroisse</p>
+        <ul className="pack-list">
+          <li>une palette de couleurs imaginée pour votre Église</li>
+          <li>des polices d’écritures en accord avec l'image de celle-ci </li>
+          <li>votre logo sur mesure</li>
+          <li>une compatibilité de celui-ci sur tous les supports</li>
+          <li>une favicon sur mesure</li>
+        </ul>
+        <div className="box-image-identite">
+          <img
+            alt="vue orgue"
+            src={require("../../utils/Identité-visuelle-EPU-Crestois-2023-mini.jpg")}
+          />
+        </div>
+     
+      <h3 className="pack-title-price">Tarif: 550€</h3>
       <h2 className="pack-title">
         Solution personnalisée ou avec fonctionnalités avancées
       </h2>
