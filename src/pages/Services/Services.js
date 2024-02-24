@@ -65,17 +65,14 @@ export default function Service() {
         phrases par exemple.
       </p>
       <h2 className="pack-title">Pack 1 Site type "vitrine"</h2>
-      <p>
-        Nous nous occupons de stocker votre site sur nos serveurs pour la somme
-        de 10€ par années
-      </p>
+   
       <ul>
-        <li>5 Pages</li>
+        <li>5 Pages, par exemple une page accueil et 4 autres pages.</li>
         <li>
-          10 photos, avec possibilité de faire un carousel(images qui défilent
-          pour 3 d'entre-elles) sur une des pages
+          10 photos, avec possibilité de faire un carrousel(images qui défilent
+          pour 3 d'entre-elles) sur une des pages.
         </li>
-        <li>10 photos</li>
+        <li></li>
       </ul>
       <h3>Tarif: 500€</h3>
       <h2 className="pack-title">Pack 2 Refonte d'un site vitrine existant</h2>
