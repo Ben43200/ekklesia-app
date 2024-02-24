@@ -34,11 +34,25 @@
   padding-top: 10px;
 }
 
-.box-image-identite > img {
+.box-image-identite-sub-container > img {
   width: 170px;
 }
 
-.box-image-identite {
+.box-image-identite-container {
   display: flex;
   justify-content: center;
+}
+
+.box-image-identite-sub-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #131f53;
+  border-radius: 5px;
+  margin-top: 30px;
+  width: 100%;
+}
+@media screen and (min-width: 1025px) {
+  .box-image-identite-sub-container {
+    width: 700px;
+  }
 }/*# sourceMappingURL=services.css.map */

@@ -14,7 +14,7 @@
   font-family: "Nunito Sans", sans-serif;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .box-info {
     place-self: center;
   }

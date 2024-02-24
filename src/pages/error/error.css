@@ -10,7 +10,7 @@
   font-weight: 700;
   margin: 0;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .errorTitle {
     font-size: 288px;
   }
@@ -24,7 +24,7 @@
   width: 260px;
   margin-top: -40px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .errorText {
     margin-top: 0px;
     font-size: 36px;
@@ -35,7 +35,7 @@
 .errorLinkHome {
   font-size: 14px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .errorLinkHome {
     font-size: 18px;
   }

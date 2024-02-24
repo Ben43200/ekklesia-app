@@ -128,13 +128,15 @@ export default function Service() {
           <li>une compatibilité de celui-ci sur tous les supports</li>
           <li>une favicon sur mesure</li>
         </ul>
-        <div className="box-image-identite">
+        <div className="box-image-identite-container">
+
+        <div className="box-image-identite-sub-container">
           <img
             alt="vue orgue"
             src={require("../../utils/Identité-visuelle-EPU-Crestois-2023-mini.jpg")}
           />
         </div>
-     
+     </div>
       <h3 className="pack-title-price">Tarif: 550€</h3>
       <h2 className="pack-title">
         Solution personnalisée ou avec fonctionnalités avancées
