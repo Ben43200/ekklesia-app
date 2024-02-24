@@ -69,9 +69,11 @@ export default function Service() {
         <NavLink to="../contact">
           <button className="button">Contact</button>
         </NavLink>
+        <p>Au préalable, dans tout les cas de figure, une prise de contact personnalisée vous sera proposée lors de laquelle nous évoquerons en détails projet.</p>
       <h2 className="pack-title">Pack 1 Site type "vitrine"</h2>
 
       <ul className="pack-list">
+       <li>Accompagnement dans le choix de votre nom de domaine qui reste à votre charge, quelques euros par ans suivant l'extension choisie</li>
         <li>5 Pages, par exemple une page accueil et 4 autres pages.</li>
         <li>
           10 photos, avec possibilité de faire un carrousel(images qui défilent
@@ -80,6 +82,7 @@ export default function Service() {
         <li>
           Un site compatible sur tous les écrans desktop, mobile, tablette.
         </li>
+        <li>Mise en place du référencement naturel SEO</li>
         <li>
           Et bien évidemment, Sécurisation complète du site pour minimiser les
           risques de se faire pirater et augmenter la confiance des visiteurs.
