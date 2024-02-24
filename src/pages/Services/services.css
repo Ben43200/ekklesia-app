@@ -51,7 +51,12 @@
   margin-top: 30px;
   width: 100%;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 768px) {
+  .box-image-identite-sub-container {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1025px) {
   .box-image-identite-sub-container {
     width: 700px;
   }
