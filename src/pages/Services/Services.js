@@ -137,7 +137,7 @@ export default function Service() {
           />
         </div>
      </div>
-      <h3 className="pack-title-price">Tarif: 550€</h3>
+      <h3 className="pack-title-price">Tarif: 400€</h3>
       <h2 className="pack-title">
         Solution personnalisée ou avec fonctionnalités avancées
       </h2>
