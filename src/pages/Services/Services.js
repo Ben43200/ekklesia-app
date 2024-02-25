@@ -81,7 +81,7 @@ export default function Service() {
         personnalisée vous sera proposée lors de laquelle nous évoquerons en
         détails votre projet.
       </p>
-      <h2 className="pack-title">Pack 1 Site type "vitrine"</h2>
+      <h2 className="pack-title">Pack 1 Site "Église"</h2>
 
       <ul className="pack-list">
         <li>
@@ -110,12 +110,14 @@ export default function Service() {
         </li>
       </ul>
       <h3 className="pack-title-price">Tarif: 500€</h3>
-      <h2 className="pack-title">Pack 2 Refonte d'un site vitrine existant</h2>
-        Les prestations du pack 1 avec reprise du contenu existan:
+      <h2 className="pack-title">Pack 2 Refonte d'un site "Église" existant</h2>
+        Les prestations du pack 1 avec reprise du contenu existant:
         <ul className="pack-list">
           <li>vos photos</li>
           <li>vos textes</li>
           <li>votre logo si vous en avez un</li>
+          <li>nous vous proposerons une nouvelle presentation</li>
+          <li>nous mettrons en place une nouvelle architecture</li>
         </ul>
       <h3 className="pack-title-price">Tarif: 600€</h3>
       <h2 className="pack-title">Pack Identité visuelle</h2>
