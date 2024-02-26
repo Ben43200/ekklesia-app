@@ -129,4 +129,9 @@
   .box-image-mission-diapo {
     height: 300px;
   }
+}
+
+.image-mission {
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=mission.css.map */

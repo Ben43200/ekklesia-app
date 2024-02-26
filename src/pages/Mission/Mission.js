@@ -18,6 +18,7 @@ export default function Mission() {
         <div className="box-image box-image-mission">
           <img
             alt="vue orgue"
+            className="image-mission"
             src={require("../../utils/vue_temple_orgue.jpg")}
           />
         </div>
@@ -60,6 +61,7 @@ export default function Mission() {
           /> */}
   <img
             alt="temple croix"
+            className="image-mission"
             src={require("../../utils/vue_vitrail.jpg")}
           />
         </div>
@@ -111,6 +113,7 @@ export default function Mission() {
         <div className="box-image box-image-mission">
           <img
             alt="affiche expo"
+            className="image-mission"
             src={require("../../utils/photo_affiche.jpg")}
           />
         </div>
