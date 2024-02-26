@@ -19,6 +19,7 @@ export default function Mission() {
           <img
             alt="vue orgue"
             className="image-mission"
+            fetchpriority="high"
             src={require("../../utils/vue_temple_orgue.jpg")}
           />
         </div>
@@ -59,7 +60,7 @@ export default function Mission() {
             alt="temple crois"
             src={require("../../utils/photo_temple_croix.jpg")}
           /> */}
-  <img
+          <img
             alt="temple croix"
             className="image-mission"
             src={require("../../utils/vue_vitrail.jpg")}
@@ -70,8 +71,9 @@ export default function Mission() {
             alt="vue orgue"
             src={require("../../utils/vue_temple_orgue.jpg")}
           /> */}
-            <img
-            alt="vue orgue" className="diapo"
+          <img
+            alt="diapo"
+            className="diapo"
             src={require("../../utils/Diapositive5.webp")}
           />
         </div>
@@ -107,8 +109,11 @@ export default function Mission() {
 
         <div className="box-image box-image-mission box-image-mission-diapo">
           {/* <img alt="vitrail" src={require("../../utils/vue_vitrail.jpg")} /> */}
-          <img alt="vitrail" className="diapo" src={require("../../utils/Diapositive8.webp")} />
-
+          <img
+            alt="vitrail"
+            className="diapo"
+            src={require("../../utils/Diapositive8.webp")}
+          />
         </div>
         <div className="box-image box-image-mission">
           <img
@@ -135,9 +140,13 @@ export default function Mission() {
         </button>
         {open ? (
           <div className="extend-content">
-             <div className="box-image box-image-mission box-image-mission-diapo">
-          <img alt="vitrail" className="diapo" src={require("../../utils/Diapositive9.webp")} />
-</div>
+            <div className="box-image box-image-mission box-image-mission-diapo">
+              <img
+                alt="vitrail"
+                className="diapo"
+                src={require("../../utils/Diapositive9.webp")}
+              />
+            </div>
             <p>
               Un site internet de paroisse peut servir à plusieurs fins
               importantes, contribuant à renforcer la communauté et à faciliter
