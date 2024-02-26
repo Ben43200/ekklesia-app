@@ -69,7 +69,7 @@ export default function Mission() {
             src={require("../../utils/vue_temple_orgue.jpg")}
           /> */}
             <img
-            alt="vue orgue"
+            alt="vue orgue" className="diapo"
             src={require("../../utils/Diapositive5.webp")}
           />
         </div>
@@ -105,7 +105,7 @@ export default function Mission() {
 
         <div className="box-image box-image-mission box-image-mission-diapo">
           {/* <img alt="vitrail" src={require("../../utils/vue_vitrail.jpg")} /> */}
-          <img alt="vitrail" src={require("../../utils/Diapositive8.webp")} />
+          <img alt="vitrail" className="diapo" src={require("../../utils/Diapositive8.webp")} />
 
         </div>
         <div className="box-image box-image-mission">
@@ -133,7 +133,7 @@ export default function Mission() {
         {open ? (
           <div className="extend-content">
              <div className="box-image box-image-mission box-image-mission-diapo">
-          <img alt="vitrail"  src={require("../../utils/Diapositive9.webp")} />
+          <img alt="vitrail" className="diapo" src={require("../../utils/Diapositive9.webp")} />
 </div>
             <p>
               Un site internet de paroisse peut servir à plusieurs fins
