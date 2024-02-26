@@ -54,15 +54,23 @@ export default function Mission() {
           </ul>
         </div>
         <div className="box-image box-image-mission">
-          <img
+          {/* <img
             alt="temple crois"
             src={require("../../utils/photo_temple_croix.jpg")}
+          /> */}
+  <img
+            alt="temple croix"
+            src={require("../../utils/vue_vitrail.jpg")}
           />
         </div>
         <div className="box-image box-image-mission">
-          <img
+          {/* <img
             alt="vue orgue"
             src={require("../../utils/vue_temple_orgue.jpg")}
+          /> */}
+            <img
+            alt="vue orgue"
+            src={require("../../utils/Diapositive5.webp")}
           />
         </div>
         <div className="box-info">
@@ -96,7 +104,9 @@ export default function Mission() {
         </div>
 
         <div className="box-image box-image-mission">
-          <img alt="vitrail" src={require("../../utils/vue_vitrail.jpg")} />
+          {/* <img alt="vitrail" src={require("../../utils/vue_vitrail.jpg")} /> */}
+          <img alt="vitrail" src={require("../../utils/Diapositive8.webp")} />
+
         </div>
         <div className="box-image box-image-mission">
           <img
@@ -122,6 +132,9 @@ export default function Mission() {
         </button>
         {open ? (
           <div className="extend-content">
+             <div className="box-image box-image-mission">
+          <img alt="vitrail" className="diapo" src={require("../../utils/Diapositive9.webp")} />
+</div>
             <p>
               Un site internet de paroisse peut servir à plusieurs fins
               importantes, contribuant à renforcer la communauté et à faciliter
