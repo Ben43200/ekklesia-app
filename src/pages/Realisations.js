@@ -2,6 +2,9 @@ import React from "react";
 import "../pages/Methodologie/methodologie.scss";
 import { useEffect } from "react";
 import ContactForm from "../components/ContactForm/ContactForm";
+import epucrestoisdesktop from "../utils/epu-crestois-desktop-mini.png"
+import epucrestoismobile from "../utils/epu-crestois-mobile.png"
+
 
 export default function Realisations() {
   useEffect(() => {
@@ -12,6 +15,13 @@ export default function Realisations() {
     <main>
       <h2>Nos Réalisations</h2>
       <p>Site de la paroisse de crest</p>
+      <div className="box-realisation">
+      
+      
+      <img className="epu-crestois-desktop" src={epucrestoisdesktop} alt="crestois-desktop" />  
+      <img className="epu-crestois-mobile" src={epucrestoismobile} alt="crestois-mobile" />
+     
+      </div>
       <ContactForm />
     </main>
   );

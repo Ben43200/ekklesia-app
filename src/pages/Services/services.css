@@ -60,4 +60,11 @@
   .box-image-identite-sub-container {
     width: 700px;
   }
+}
+
+.box-realisation {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
 }/*# sourceMappingURL=services.css.map */
