@@ -15,10 +15,12 @@ export default function Realisations() {
     <main>
       <h2>Nos Réalisations</h2>
       <p>Site de la paroisse de crest</p>
+      <h3>Version bureau</h3>
       <div className="box-realisation">
       
       
-      <img className="epu-crestois-desktop" src={epucrestoisdesktop} alt="crestois-desktop" />  
+      <img className="epu-crestois-desktop" src={epucrestoisdesktop} alt="crestois-desktop" />
+      <h3>Version mobile</h3> 
       <img className="epu-crestois-mobile" src={epucrestoismobile} alt="crestois-mobile" />
      
       </div>
