@@ -67,8 +67,15 @@
 
 .box-realisation{
     // height:800px;
-    width:800px;
+
     display: flex;
     justify-content: center;
+    flex-direction: column;
     padding-bottom: 30px;
+    // width:100%;
+    @include media(desktop) {
+        flex-direction: row;
+       
+        width:800px;
+}
 }

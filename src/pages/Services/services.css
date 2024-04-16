@@ -63,8 +63,14 @@
 }
 
 .box-realisation {
-  width: 800px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   padding-bottom: 30px;
+}
+@media screen and (min-width: 1025px) {
+  .box-realisation {
+    flex-direction: row;
+    width: 800px;
+  }
 }/*# sourceMappingURL=services.css.map */
