@@ -72,4 +72,27 @@
   .box-realisation {
     flex-direction: row;
   }
+}
+
+.realisation-title {
+  display: flex;
+  justify-content: space-around;
+}
+
+.desktop-title-masked {
+  text-align: center;
+}
+@media screen and (min-width: 1025px) {
+  .desktop-title-masked {
+    display: none;
+  }
+}
+
+.mobile-title-masked {
+  display: none;
+}
+@media screen and (min-width: 1025px) {
+  .mobile-title-masked {
+    display: flex;
+  }
 }/*# sourceMappingURL=services.css.map */

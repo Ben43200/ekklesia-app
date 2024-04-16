@@ -79,3 +79,24 @@
         
 }
 }
+
+.realisation-title{
+   display: flex ;
+   justify-content: space-around;
+}
+
+.desktop-title-masked{
+    text-align: center;
+   
+    @include media(desktop) {
+        display: none;
+    }
+}
+
+.mobile-title-masked{
+    display: none;
+
+    @include media(desktop) {
+        display: flex;
+    }   
+}
