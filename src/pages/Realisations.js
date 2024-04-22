@@ -19,7 +19,7 @@ export default function Realisations() {
       
       </div> */}
          <div className="realisation-title">
-      <h3>Version bureau</h3>
+      <h3 className="mobile-title-visible">Version bureau</h3>
       <h3 className="mobile-title-masked">Version mobile</h3> 
       </div>
       <div className="box-realisation">

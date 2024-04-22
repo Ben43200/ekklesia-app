@@ -71,11 +71,14 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-bottom: 30px;
+    // padding-bottom: 30px;
+    padding: 0px 15px 30px 15px;
+
     // width:100%;
     @include media(desktop) {
         flex-direction: row;
-       
+        gap: 10px;
+        padding-bottom: 30px;
         
 }
 }
@@ -87,6 +90,7 @@
 
 .desktop-title-masked{
     text-align: center;
+    padding: 10px 0px;
    
     @include media(desktop) {
         display: none;
@@ -98,5 +102,11 @@
 
     @include media(desktop) {
         display: flex;
+        padding: 10px 0px;
     }   
+}
+
+.mobile-title-visible{
+    padding: 10px 0px;
+ 
 }
