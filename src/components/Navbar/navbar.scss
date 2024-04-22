@@ -49,26 +49,36 @@ header {
 }
 
 //logo
-.logo-1 {
-  width: 15%;
-  height: 50px;
+// .logo-1 {
+//   width: 15%;
+//   height: 50px;
 
-  z-index: 300;
-  @include media(tablet) {
-    // border-radius: 25px;
-    // height: 140px;
-    // width: 7%;
-    width: 8%;
-  height: 60px;
+//   z-index: 300;
+//   @include media(tablet) {
+//     // border-radius: 25px;
+//     // height: 140px;
+//     // width: 7%;
+//     width: 8%;
+//   height: 60px;
 
-  }
-  @include media(desktop) {
-    // border-radius: 25px;
-    // height: 140px;
-    width: 6%;
-  }
-  // padding-top: 10px;
+//   }
+//   @include media(desktop) {
+//     // border-radius: 25px;
+//     // height: 140px;
+//     width: 6%;
+//   }
+//   // padding-top: 10px;
+// }
+
+
+.logo-1{
+  height:100%;
+  width: auto;
+  padding: 6px 0px;
 }
+
+
+
 
 .menu-icon {
   display: none;
