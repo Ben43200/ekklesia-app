@@ -16,4 +16,10 @@
 
 .spray {
   color: red;
+}
+
+.methodo-layout {
+  display: grid;
+  justify-items: center;
+  row-gap: 20px;
 }/*# sourceMappingURL=methodologie.css.map */

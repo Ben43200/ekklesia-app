@@ -24,6 +24,7 @@ const Methodologie = () => {
   return (
     <main>
       <h2>Méthodologie</h2>
+      <div className="methodo-layout">
 
 
 
@@ -67,7 +68,17 @@ const Methodologie = () => {
         <li>Mise en ligne du site sur nos serveurs.</li>
       </ul> */}
       {/* </div> */}
-      A reformuler
+      <div className="box-image-methodologie">
+          {/* <!-- <img src="./parroissiens.webp" alt="paroissiens" /> --> */}
+          {/* <img
+            src="./paroissiens.webp"
+            srcSet="parroissiens-mini.webp 320w, paroissiens.webp 640w"
+            alt="photo paroissiens"
+          /> */}
+          <img alt="image bible" src={require("../../utils/methodo.jpg")} />
+
+        </div>
+     
 Pour créer un site internet d&#39;une Eglise, un bon développeur Web doit suffire. Si, en plus, il est
 chrétien et engagé personnellement dans son Eglise, cela lui permet d’être plus à même de saisir les
 enjeux et les besoins de votre paroisse, son organisation et son fonctionnement. Efficacité et gain de
@@ -87,20 +98,21 @@ précieuses qui peuvent être utilisées pour créer un site Web de qualité pou
 <div className="button-group">
 <NavLink to='../Mission'><button className="button">Mission</button></NavLink>
 
-        <div className="box-image-methodologie">
+        {/* <div className="box-image-methodologie">
           {/* <!-- <img src="./parroissiens.webp" alt="paroissiens" /> --> */}
           {/* <img
             src="./paroissiens.webp"
             srcSet="parroissiens-mini.webp 320w, paroissiens.webp 640w"
             alt="photo paroissiens"
           /> */}
-          <img alt="image bible" src={require("../../utils/methodo.jpg")} />
+          {/* <img alt="image bible" src={require("../../utils/methodo.jpg")} />
 
-        </div>
+        </div> */} 
         <div className="button-group">
         <NavLink to='../contact'><button className="button">Contact</button></NavLink>
         </div>
 
+        </div>
         </div>
     </main>
 
