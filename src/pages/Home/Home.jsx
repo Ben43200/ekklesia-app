@@ -105,7 +105,7 @@ export default function Home() {
           </p>
           <NavLink to="../contact">
             <div className="flex-extend-container">
-              <button className="button">Mieux nous connaître</button>
+              <button className="button">Contact</button>
             </div>
           </NavLink>
         </div>
