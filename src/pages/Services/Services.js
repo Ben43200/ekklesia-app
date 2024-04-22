@@ -138,6 +138,12 @@ export default function Service() {
             src={require("../../utils/Identité-visuelle-EPU-Crestois-2023-mini.jpg")}
           />
         </div>
+        <div className="box-image-identite-sub-container">
+          <img
+            alt="vue orgue"
+            src={require("../../utils/Identité visuelle Ekklêsia Web 2024.jpg")}
+          />
+        </div>
      </div>
       <h3 className="pack-title-price">Tarif: 400€</h3>
       <h2 className="pack-title">

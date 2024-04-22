@@ -46,7 +46,12 @@
 }
 .box-image-identite-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    @include media(tablet) {
+        flex-direction: row;
+        gap:15px;
+}
 }
 .box-image-identite-sub-container{
     display: flex;

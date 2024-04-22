@@ -40,7 +40,14 @@
 
 .box-image-identite-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .box-image-identite-container {
+    flex-direction: row;
+    gap: 15px;
+  }
 }
 
 .box-image-identite-sub-container {
@@ -66,11 +73,13 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-bottom: 30px;
+  padding: 0px 15px 30px 15px;
 }
 @media screen and (min-width: 1025px) {
   .box-realisation {
     flex-direction: row;
+    gap: 10px;
+    padding-bottom: 30px;
   }
 }
 
@@ -81,6 +90,7 @@
 
 .desktop-title-masked {
   text-align: center;
+  padding: 10px 0px;
 }
 @media screen and (min-width: 1025px) {
   .desktop-title-masked {
@@ -94,5 +104,10 @@
 @media screen and (min-width: 1025px) {
   .mobile-title-masked {
     display: flex;
+    padding: 10px 0px;
   }
+}
+
+.mobile-title-visible {
+  padding: 10px 0px;
 }/*# sourceMappingURL=services.css.map */
